@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "NexaScript_regular";
+  src: url(/font/nexascript_regular.ttf) format("truetype");
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  // background-color: #262626;
+}
+
+::-webkit-scrollbar {
+  width: 0.48rem;
+}
+::-webkit-scrollbar-button {
+  background-color: #262626;
+  border-radius: 0.7rem;
+  border: 1px solid #fff;
+}
+::-webkit-scrollbar-corner {
+  border-radius: 50%;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  margin-block: 0.1rem;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #262626;
+  border-radius: 1rem;
+}
+
+@layer utilities {
+  .margin {
+    margin-top: 4rem;
+    @media screen and (min-width: 640px) {
+      margin-top: 8rem;
+    }
+  }
+  .font-montaga {
+    font-family: "Montaga", serif;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    @apply appearance-none;
+    margin: 0;
+  }
+
+  .no-spinner {
+    @apply appearance-none;
+  }
+
+  .heading1 {
+    font-size: 2rem;
+    line-height: 1.2;
+
+    @media screen and (min-width: 640px) {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+  }
+
+  .heading2 {
+    font-size: 2rem;
+    line-height: 1.2;
+
+    @media screen and (min-width: 640px) {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 2.3rem;
+      line-height: 1.2;
+    }
+  }
+
+  .heading3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+
+    @media screen and (min-width: 640px) {
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+  }
+
+  .heading4 {
+    font-size: 1rem;
+    line-height: 1.2;
+
+    @media screen and (min-width: 640px) {
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 1.25rem;
+      line-height: 1.2;
+    }
+  }
+
+  // .description {
+  //   font-size: 1rem;
+  //   line-height: 1.5;
+
+  //   @media screen and (min-width: 640px) {
+  //     font-size: 1.25rem;
+  //     line-height: 1.2;
+  //   }
+
+  //   @media screen and (min-width: 1024px) {
+  //     font-size: 1.5rem;
+  //     line-height: 1.2;
+  //   }
+  // }
+
+  .description1,
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    @media screen and (min-width: 640px) {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+
+  .max-width {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 0.4rem;
+    width: 100%;
+
+    @media (width <= 770px) {
+      padding: 0 1.2rem;
+    }
+  }
+}
+
+.accordion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  cursor: pointer;
+
+  @media (width <= 640px) {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  span {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.pagination {
+  .swiper-pagination-bullet {
+    background-color: #404040;
+    width: 0.65rem;
+    height: 0.65rem;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #c6a445;
+
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
+
+// #custom-pagination-fraction {
+//   .swiper-pagination-fraction {
+//     width: fit-content;
+//     padding: 0 1rem;
+//     right: 0 !important;
+//     bottom: -20px !important;
+//     border: 1px solid #c6a445;
+//   }
+//   .swiper-pagination {
+//     text-align: end;
+//   }
+// }
+
+.roomsSilder {
+  .swiper-pagination-fraction {
+    width: fit-content;
+    padding: 0 1rem;
+    left: 90%;
+    @media (width <= 640px) {
+      left: 30%;
+    }
+  }
+  .swiper-pagination-fraction {
+    color: #c6a445;
+  }
+  .swiper-pagination {
+    text-align: end;
+  }
+}
+
+.thumbs {
+  .swiper-slide-thumb {
+    opacity: 0.4;
+  }
+  .swiper-slide-thumb-active {
+    opacity: 1;
+    border: 3px solid #000;
+  }
+  .swiper-pagination-fraction {
+    color: #fff;
+    // @media (width >= 640px) {
+    //   color: #000;
+    //   width: fit-content;
+    //   padding: 0 1rem;
+    //   left: 85%;
+    //   top: 150%;
+    //   z-index: 20;
+    // }
+  }
+}
+.gallery-swiper-inside {
+  .swiper-pagination-bullet {
+    background-color: #FFFFFF50;
+    width: 2rem;
+    height: 0.2rem;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #FFFFFF;
+
+    width: 2rem;
+    height: .2rem;
+  }
+}
+
+.banner-next:active {
+  color: #c6a445;
+}
+.banner-prev:active {
+  color: #c6a445;
+}
+
+/* Ensures smooth rotation animation for the orbit */
+.orbit {
+  transition: transform 0.5s ease-in-out;
+}
