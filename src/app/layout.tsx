@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ORA Lake View",
-  description: "Best Resort in Switzerland",
+  title: "White Ridge Hotel",
+  description: "A place to relax and unwind",
 };
 
 export default function RootLayout({

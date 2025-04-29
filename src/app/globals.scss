@@ -196,16 +196,18 @@
 
 .pagination {
   .swiper-pagination-bullet {
-    background-color: #404040;
+    background-color: #FFFFFF50;
     width: 0.65rem;
     height: 0.65rem;
     opacity: 1;
+    border-radius: 50%;
+    transition: all 0.3s ease;
   }
   .swiper-pagination-bullet-active {
-    background-color: #c6a445;
-
-    width: 0.8rem;
-    height: 0.8rem;
+    background-color: #FFFFFF;
+    border-radius: .3rem;
+    width: 2rem;
+    height: 0.5rem;
   }
 }
 
@@ -286,3 +288,5 @@
 .orbit {
   transition: transform 0.5s ease-in-out;
 }
+
+

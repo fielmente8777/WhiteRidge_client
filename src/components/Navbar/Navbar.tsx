@@ -5,7 +5,7 @@ import { NavLink } from "@/data/navData";
 import Image from "next/image";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { MobileNavbar } from "./MobileNavbar";
 import Button from "../Button";
@@ -58,20 +58,32 @@ const Navbar: React.FC = () => {
   }, []);
 
   // Weather state
-  const [temp, setTemp] = useState<number>(0.0);
+  const [temp, setTemp] = useState<number | null>(null);
+
+  // Memoized function to fetch weather
+  const getTemp = useCallback(async () => {
+    try {
+      const apiKey = "8611baa95180437492f54121230505";
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 5000); // Set a timeout for the request
+
+      const response = await axios.get(
+        `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=32.19369958610509,76.34778399999999`,
+        { signal: controller.signal }
+      );
+
+      clearTimeout(timeout);
+      setTemp(response?.data?.current?.temp_c);
+    } catch (error) {
+      console.error("Failed to fetch weather data:", error);
+      setTemp(null); // Handle error gracefully
+    }
+  }, []);
+
   // Fetch weather only user's location
   useEffect(() => {
-    const getTemp = async () => {
-      const apiKey = "8611baa95180437492f54121230505";
-      
-      const response = await axios.get(
-        `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=32.19369958610509, 76.34778399999999`
-      );
-      setTemp(response?.data?.current?.temp_c);
-    };
-
     getTemp();
-  }, []);
+  }, [getTemp]);
 
   return (
     <header

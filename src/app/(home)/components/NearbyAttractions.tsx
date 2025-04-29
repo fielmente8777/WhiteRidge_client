@@ -33,11 +33,11 @@ const NearbyAttractions: React.FC<NearbyAttractionsProps> = ({
         <div className="flex flex-col items-center justify-center gap-4 lg:mb-16 mb-8">
           <Heading
             level={2}
-            className="text-center text-[#FFCD42] capitalize font-montaga heading2 lg:px-20"
+            className="text-center text-primary capitalize  heading4 lg:px-20"
           >
             {title}
           </Heading>
-          <Paragraph className="text-center !text-primary description1">
+          <Paragraph className="text-center text-dark heading3 font-montaga">
             {description}
           </Paragraph>
         </div>

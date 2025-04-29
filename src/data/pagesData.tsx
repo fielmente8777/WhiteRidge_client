@@ -1,5 +1,4 @@
 import {
-  BoatIcon,
   BusIcon,
   PlainIcon,
   TrainIcon,
@@ -39,8 +38,20 @@ export const homePageData = {
       "Our rooms are designed for comfort and relaxation, offering a variety of categories to suit your needs. With options ranging from cozy single rooms to spacious suites, we ensure a restful stay. Each room is thoughtfully designed with modern amenities and breathtaking views of Dharamshala’s scenic beauty, making it a perfect retreat for all guests.",
     images: [
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Rooms/Classic+Double+Lakeview/4E1A7844.webp",
-        alt: "Classic Lake View",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8273+copy.webp",
+        alt: "Deluxe Premium Valley View Room",
+      },
+      {
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8240+copy.webp",
+        alt: "Deluxe Premium Mount View Room",
+      },
+      {
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8307+copy.webp",
+        alt: "Executive Suite Room",
+      },
+      {
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/STD+Room/IMG_8337+copy.webp",
+        alt: "Standard Room",
       },
     ],
   },
@@ -50,58 +61,57 @@ export const homePageData = {
     items: [
       {
         icon: homeImages + "/amenities/CarProfile.png",
-        title: "Free Parking Without Reservation",
+        title: "Free Parking",
         description:
-          "Arrive stress-free with spacious front and back parking areas, designed to accommodate every guest with ease and comfort.",
-        // src: aboutImages + "/img2.webp",
+          "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Facade/WhatsApp+Image+2025-03-26+at+20.56.16+(1).webp",
         color: "#FAE3AF",
       },
       {
         icon: homeImages + "/amenities/PicnicTable.png",
-        title: "Breakfast",
+        title: "Free Wi-Fi",
         description:
-          "Start your day the right way. Our continental breakfast buffet is packed with fresh, locally-sourced flavors to fuel your adventures ahead",
+          "Stay connected throughout your stay with our fast and reliable complimentary Wi-Fi service.",
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Restaurant/im1.webp",
         color: "#D8D6D7",
       },
       {
         icon: homeImages + "/amenities/SmileyWink.png",
-        title: "Entertainment Lounge",
+        title: "Multi-Cuisine Restaurant",
         description:
-          "Relax, recharge, and enjoy. Whether you’re into games, books, or just good conversations under the glow of Swiss hospitality",
+          "Indulge in a diverse menu offering delicious dishes from around the world in our restaurant.",
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Bar+lounge/4E1A8037+copy.webp",
         color: "#E7CBCE",
       },
       {
         icon: homeImages + "/amenities/Eye.png",
-        title: "Private Balcony/Terrace",
+        title: "Mini Swimming Pool",
         description:
-          "Take in the views—Lake Brienz, the Swiss Alps, and a whole lot of serenity. Unwind with a book, or sip your favorite drink while nature does the rest",
+          " Take a refreshing dip in our mini swimming pool, perfect for a relaxing break.",
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Designer.webp",
         color: "#CE905F",
       },
       {
         icon: homeImages + "/amenities/WifiHigh.png",
-        title: "Free WiFi",
+        title: "Cube Cafe Coffee Shop",
         description:
-          "Stay as connected as you want. Our high-speed WiFi ensures you can stay in touch with what matters, while you’re living your best Swiss life",
+          "Grab a freshly brewed coffee or a quick snack at our inviting Cube Cafe.",
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/medium.webp",
         color: "#E0E7E9",
       },
-      // {
-      //   icon: homeImages + "/amenities/SmileyWink.png",
-      //   title: "Entertainment Lounge",
-      //   description:
-      //     "Relax, recharge, and enjoy. Whether you’re into games, books, or just good conversations under the glow of Swiss hospitality",
-      //   src: homeImages + "/gallery/img2.webp",
-      //   color: "#E7CBCE",
-      // },
+      {
+        icon: homeImages + "/amenities/SmileyWink.png",
+        title: "Multipurpose Hall",
+        description:
+          "Host your events with ease in our versatile multipurpose hall, perfect for any occasion.",
+        src: homeImages + "/gallery/img2.webp",
+        color: "#E7CBCE",
+      },
       {
         icon: homeImages + "/amenities/ChefHat.png",
-        title: "Common Kitchen",
+        title: "Rooftop Lounge",
         description:
-          "Feel at home with our fully-equipped common kitchen. Whether you’re cooking up a storm or just storing snacks, it’s your space to enjoy",
+          "Experience breathtaking views and cool breezes while enjoying your favorite drinks at our rooftop lounge.",
         src: homeImages + "/amenities/IM3.png",
         color: "#B9BDA7",
       },
@@ -113,53 +123,39 @@ export const homePageData = {
 
     images: [
       {
-        src: homeImages + "/nearby/IMG1.png",
-        alt: "Jangfrau",
-        des: "An alpine journey to towering peaks",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im5.webp",
+        alt: "Kangra Valley",
+        des: "Kangra Valley",
         description:
-          "Jungfrau, renowned for its towering peaks and stunning vistas, features scenic train rides, hiking trails, and snow adventures. Ideal for explorers and nature lovers, it’s a must-visit alpine destination",
+          "Nestled in the foothills of the majestic Himalayas, Kangra is a serene escape, offering picturesque landscapes, rich history, and a tranquil atmosphere that captures the heart of every traveler.",
       },
       {
-        src: homeImages + "/nearby/IMG2.png",
-        alt: "Harder Kulm",
-        des: "The roof of Interlaken with panoramic views.",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im6.webp",
+        alt: "Shri Dalai Lama Temple",
+        des: "Shri Dalai Lama Temple",
         description:
-          "a short ride from Interlaken, offers sweeping views of Lake Thun, Lake Brienz, and the mountains from its 1,322-meter height. The glass-floored platform and on-site restaurant make it a memorable spot.",
+          "A peaceful haven for reflection and spirituality, the Shri Dalai Lama Temple offers visitors a glimpse into Tibetan culture and Buddhism, with stunning views of Dharamshala’s natural beauty.",
       },
       {
-        src: homeImages + "/nearby/IMG3.png",
-        alt: "Lake Thun",
-        des: "Tranquility on turquoise waters",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im8.webp",
+        alt: "Triund Hill",
+        des: "Triund Hill",
         description:
-          "Lake Thun, known for its clear waters and mountain views, offers boat cruises, charming villages, and historic lakeside castles. Ideal for picnics, swimming, or relaxing, it's a perfect spot for families and couples.",
+          "Known for its breathtaking vistas, Triund Hill is a paradise for trekkers and nature lovers, offering panoramic views of the Dhauladhar range and a serene atmosphere that calms the soul.",
       },
       {
-        src: homeImages + "/nearby/IMG4.png",
-        alt: "Schynige Platte",
-        des: "A floral paradise above the clouds",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im9.webp",
+        alt: "Norbulingka Temple",
+        des: "Norbulingka Temple",
         description:
-          "Schynige Platte, accessible by cogwheel train, is known for its scenic hiking trails, alpine flora, and panoramic views of the Eiger, Mönch, and Jungfrau. It’s a perfect retreat for nature lovers and adventure seekers alike.",
+          "A gem of Tibetan architecture, the Norbulingka Temple is a peaceful sanctuary where vibrant gardens, intricate art, and spiritual tranquility create a serene escape for those seeking reflection.",
       },
       {
-        src: homeImages + "/nearby/IMG5.png",
-        alt: "St. Beatus Caves",
-        des: "Whispers of legends in limestone chambers",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im10.webp",
+        alt: "Dal Lake",
+        des: "Dal Lake",
         description:
-          "The St. Beatus Caves near Lake Thun feature limestone formations and legends of St. Beatus. Guided tours along well-kept paths reveal their geological history and natural beauty.",
-      },
-      {
-        src: homeImages + "/nearby/IMG6.png",
-        alt: "Giessbach Falls",
-        des: "Cascading beauty amidst lush forests",
-        description:
-          "Giessbach Falls, near Lake Brienz, cascades over 500 meters through lush forests. Scenic trails offer beautiful views, and the nearby historic Giessbach Hotel adds to its charm, making it ideal for a day in nature.",
-      },
-      {
-        src: homeImages + "/nearby/IMG7.png",
-        alt: "Hohematte Park",
-        des: "A vibrant green canvas in Interlaken’s heart",
-        description:
-          "Located in central Interlaken, Hohematte Park is a lush green space with manicured gardens, playgrounds, and mountain views. Hosting events year-round, it’s perfect for picnics, strolls, or relaxation for all ages.",
+          "Surrounded by lush greenery and stunning Himalayan peaks, Dal Lake is a serene and picturesque spot, offering a peaceful retreat with boat rides and a tranquil atmosphere perfect for relaxation.",
       },
     ],
   },
@@ -168,46 +164,43 @@ export const homePageData = {
     description: "Discover Thrilling Activities for Every Explorer",
     items: [
       {
-        title: "Lakeside Serenity Walk",
+        title: "Rock Climbing",
         description:
-          "Take a leisurely 3-4 km stroll around the pristine lake, where every step offers breathtaking views of the water and the majestic Alps. Perfect for unwinding or capturing the beauty of nature, this walk immerses you in tranquility",
+          "Conquer the rugged terrains surrounding Dharamshala with our expert-led rock climbing adventures. A thrilling experience that offers both a physical challenge and stunning panoramic views of the mountains.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Lakeside+Serenity/Jpg/IMG-+new.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Lakeside+Serenity/Jpg/IMG-1%2C2.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Lakeside+Serenity/PSD/IMG-3.webp",
-          homeImages + "/doathotels/IMG1.png",
-          // homeImages + "/doathotels/IMG2.png",
-          // homeImages + "/doathotels/IMG3.png",
-          // homeImages + "/doathotels/IMG4.png",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im11.webp",
         ],
       },
       {
-        title: "Iseltwald: A View to Remember",
+        title: "Paragliding",
         description:
-          "Enjoy unparalleled views of the charming village of Iseltwald right from your balcony. Famous for its appearance in the Korean drama Crash Landing on You, this scenic spot blends natural beauty with cinematic magic",
-        images: [],
-      },
-      {
-        title: "Seasonal Swimming Bliss",
-        description:
-          "Dive into relaxation at the swimming spot just below the hotel, open during the season. Whether you're taking a refreshing dip or lounging by the water, it's a perfect way to enjoy the lake",
+          "Soar above the lush valleys of Dharamshala for an exhilarating paragliding experience. Whether you're a first-timer or an experienced flier, this adventure offers a unique bird's-eye view of the majestic Himalayas.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/45.webp",
-          // homeImages + "/doathotels/IMG9.png",
-          // homeImages + "/doathotels/IMG10.png",
-          // homeImages + "/doathotels/IMG11.png",
-          // homeImages + "/doathotels/IMG12.png",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im12.webp",
         ],
       },
       {
-        title: "Fun for the Little Ones",
+        title: "Camping",
         description:
-          "A nearby children’s park ensures younger guests have their share of fun. Equipped with swings, slides, and a safe play area, it’s an ideal spot for families to create joyful memories together",
+          "Reconnect with nature in the serene environment of Dharamshala with our curated camping experiences. Enjoy cozy tents, a warm campfire, and the peaceful sounds of the wilderness under a starlit sky.",
         images: [
-          homeImages + "/doathotels/IMG13.png",
-          homeImages + "/doathotels/img14.webp",
-          homeImages + "/doathotels/IMG15.png",
-          homeImages + "/doathotels/IMG16.png",
+         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im13.webp",
+        ],
+      },
+      {
+        title: "River Crossing",
+        description:
+          "Push your limits with an exciting river crossing adventure. Perfect for thrill-seekers, this activity offers an adrenaline rush while enjoying the natural beauty of the surroundings.",
+        images: [
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im14.webp",
+        ],
+      },
+      {
+        title: "Jungle Walks",
+        description:
+          "Embark on a peaceful jungle walk and explore the rich biodiversity of Dharamshala's forests. A guided nature walk gives you the chance to connect with the landscape while spotting local wildlife and flora.",
+        images: [
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im15.webp",
         ],
       },
     ],
@@ -216,27 +209,22 @@ export const homePageData = {
     title: "At the Heart of Connectivity",
     description:
       "Perfectly located for effortless exploration and unforgettable experiences",
-    src: homeImages + "/img3.webp",
+    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im17.webp",
     items: [
       {
         icon: <BusIcon />,
-        address: "Niederried b.I'laken, Dorf Bus Station",
-        distance: "20 meters ,🚶 1 min",
-      },
-      {
-        icon: <BoatIcon />,
-        address: "Niederried Ferry Terminal",
-        distance: "300 Meters, 🚶 5 mins approx",
+        address: "Bus Station",
+        distance: "4 Kilometers",
       },
       {
         icon: <TrainIcon />,
-        address: "Niederried train Station",
-        distance: "170 meters, 🚶 2-3 mins approx",
+        address: "train Station",
+        distance: "90 Kilometers",
       },
       {
         icon: <PlainIcon />,
-        address: "Zurich Airport / Bern Airport",
-        distance: "79 M, 🚗 1 hr 46 min / 36 M, 🚗 49 mins",
+        address: "Airport",
+        distance: "12 Kilometers",
       },
     ],
   },

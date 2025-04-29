@@ -24,36 +24,37 @@ const Connectivity: React.FC<IConnectivity> = ({
       <div className="flex flex-col items-center justify-center gap-4 ">
         <Heading
           level={2}
-          className="text-center text-quaternary capitalize font-montaga heading2"
+          className="text-center text-primary capitalize  heading4"
         >
           {title}
         </Heading>
-        <Paragraph className="text-center !text-primary description1">
+        <Paragraph className="text-center text-dark heading3 font-montaga">
           {description}
         </Paragraph>
-        <div className="lg:grid grid-cols-2 flex flex-col-reverse gap-8 w-full mt-8">
+        <div className="md:grid grid-cols-2 md:items-center flex flex-col-reverse gap-8 w-full mt-8">
           <div className="flex flex-col gap-8">
-            {items?.map((item, index) => (
-              <div key={index} className="flex gap-3">
-                <div className="">{item.icon}</div>
-                <div className="flex flex-col gap-3">
-                  <Heading level={3} className="heading4">
-                    {item.address}
-                  </Heading>
-                  <Paragraph className="description1 !text-primary">
-                    {item.distance}
-                  </Paragraph>
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+              {items?.map((item, index) => (
+                <div key={index} className="flex gap-3">
+                  <div className="">{item.icon}</div>
+                  <div className="flex flex-col gap-3">
+                    <Heading level={3} className="heading4">
+                      {item.address}
+                    </Heading>
+                    <Paragraph className="description1 !text-primary">
+                      {item.distance}
+                    </Paragraph>
+                  </div>
                 </div>
-              </div>
-            ))}
-
+              ))}
+            </div>
             <Link
-              href="https://maps.app.goo.gl/5oDm6kXuR8tCxzvY6"
+              href="https://maps.app.goo.gl/s48Cyp5acJ6mziii7"
               target="_blank"
-              className="text-primary font-normal capitalize mt-2 group hover:scale-x-105 transition-all duration-300 ease-in-out border-primary/60 border-b-2 w-fit description1 flex items-center gap-2"
+              className="text-dark font-normal capitalize mt-2 group hover:scale-x-105 transition-all duration-300 ease-in-out border-primary/60 border-b-2 w-fit description1 flex items-center gap-2"
             >
               Get directions{" "}
-              <span className="group-hover:translate-x-1 text-[#333333] group-hover:-translate-y-1 group-hover:text-quaternary">
+              <span className="group-hover:translate-x-1 text-primary group-hover:-translate-y-1 group-hover:text-quaternary">
                 <GetDirections />
               </span>
             </Link>

@@ -28,7 +28,7 @@ const GuestReviews: React.FC<GuestReviewsProps> = ({
             {description}
           </Paragraph>
         </div>
-        <div className="w-full flex items-center justify-center gap-4 lg:max-width max-md:px-2">
+        <div className="w-full flex items-center justify-center gap-4 lg:max-width max-md:px-2 reviews">
           <button className="button-prev text-white lg:block hidden hover:scale-105 active:scale-95 disabled:text-tertiary">
             <PrevIcon />
           </button>

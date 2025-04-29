@@ -21,10 +21,10 @@ const NearByCard2: React.FC<{
         </div>
       </div>
       <div className="flex flex-col gap-1 w-full bg-white py-4">
-        <Paragraph className="description1 capitalize !text-primary">
+        <Paragraph className="description1 capitalize !text-dark">
           {des}
         </Paragraph>
-        <Paragraph className="description1 capitalize !text-primary">
+        <Paragraph className="description1 capitalize !text-dark">
           {description}
         </Paragraph>
       </div>

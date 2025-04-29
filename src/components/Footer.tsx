@@ -141,7 +141,7 @@ const Footer = () => {
                       </Link>
                     )}
                     {item?.links && (
-                      <div className="flex gap-2 flex-wrap">
+                      <div className="flex gap-2 ">
                         <span className="text-white ">{item?.icon}</span>
                         <div className="flex flex-col gap-2">
                           {item.links?.map((subItem, index) => (

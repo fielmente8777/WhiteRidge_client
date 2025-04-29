@@ -1,5 +1,6 @@
 // import { Heading } from "../TextAndInputComponents";
 import { Heading, Paragraph } from "@/components";
+import { StarIcon } from "@/icons/icons";
 
 const GuestReviewCard = ({
   title,
@@ -16,7 +17,14 @@ const GuestReviewCard = ({
       >
         {title}
       </Heading>
-      <div>⭐⭐⭐⭐⭐️</div>
+      <div className="flex gap-1">
+        {[1, 2, 3, 4, 5].map((item, index) => (
+          <span key={index}>
+            <span className="sr-only">rating</span>
+            <StarIcon />
+          </span>
+        ))}
+      </div>
 
       <Paragraph className="text-center description1 text-white">
         {description}

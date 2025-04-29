@@ -52,7 +52,7 @@ const DoAtHotel: React.FC<IDoAtHotelProps> = ({
                 type: "fraction",
                 clickable: true,
                 renderFraction: (currentClass: string, totalClass: string) => {
-                  return `<span class="${currentClass} font-montaga"></span> / <span class="${totalClass} font-montaga"></span>`;
+                  return `<span class="${currentClass} font-montaga text-primary"></span> / <span class="${totalClass} text-primary font-montaga"></span>`;
                 },
               }}
               navigation={{
@@ -78,7 +78,7 @@ const DoAtHotel: React.FC<IDoAtHotelProps> = ({
                 <DoAtHotelCard {...item} index={items.indexOf(item)} />
               )}
             </SliderSwip>
-            <div className=" flex items-center gap-4  left-0 bottom-8 absolute px-4 z-10">
+            <div className=" flex items-center gap-4  left-0 bottom-0 absolute px-4 z-10">
               <button
                 className={`text-primary hover:scale-105 active:scale-95 hover:text-tertiary prev p-2 hover:bg-white rounded-full`}
               >
@@ -91,8 +91,8 @@ const DoAtHotel: React.FC<IDoAtHotelProps> = ({
                 <NextIcon />
               </button>
               <div className="text-primary font-montaga text-[1.2rem] custom-swiper-pagination">
-                <span className="swiper-pagination-current"></span> /{" "}
-                <span className="swiper-pagination-total"></span>
+                <span className="swiper-pagination-current text-primary"></span> /{" "}
+                <span className="swiper-pagination-total text-primary"></span>
               </div>
             </div>
           </div>
