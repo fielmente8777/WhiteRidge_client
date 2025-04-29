@@ -17,7 +17,7 @@ export default function Home() {
       <HomeBanner {...homePageData.bannerData} />
       <WhoWeAre />
       <Gallery {...homePageData.galleryData} />
-      <RoomsSilder {...homePageData.roomsData} />
+      {/* <RoomsSilder {...homePageData.roomsData} /> */}
       <div id="amenities" />
       <Amenities {...homePageData.amenitiesData} />
       <div id="nearby" />

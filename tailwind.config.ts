@@ -14,6 +14,15 @@ export default {
         dark: "#262626",
         light: "#777777",
       },
+      animation: {
+        "top-down": "top-down 0.4s linear forwards",
+      },
+      keyframes: {
+        "top-down": {
+          "0%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(0%)" },
+        },
+      },
     },
   },
   plugins: [],

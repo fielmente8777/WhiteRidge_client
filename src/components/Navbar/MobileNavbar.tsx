@@ -38,7 +38,12 @@ export const MobileNavbar = ({
               </li>
             ))}
           </ul>
-          <Button href={bookingUrl} label="Book Now" newTabe className="w-fit mx-2 py-3 px-6 bg-white !text-primary max-md:hover:bg-white max-md:hover:text-primary" />
+          <Button
+            href={bookingUrl}
+            label="Book Now"
+            newTabe
+            className="w-fit mx-2 py-3 px-6 bg-white !text-primary max-md:hover:bg-white max-md:hover:text-primary"
+          />
         </nav>
       </Container>
     </header>
