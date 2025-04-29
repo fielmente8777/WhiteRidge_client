@@ -19,12 +19,12 @@ const GuestReviews: React.FC<GuestReviewsProps> = ({
         <div>
           <Heading
             level={2}
-            className="text-center text-primary capitalize font-montaga heading4"
+            className="text-center text-primary uppercase font-medium heading4"
           >
             {title}
           </Heading>
 
-          <Paragraph className="text-white text-center heading2 px-4 mt-3">
+          <Paragraph className="text-white text-center font-montaga heading3 px-4 mt-3">
             {description}
           </Paragraph>
         </div>
@@ -53,7 +53,7 @@ const GuestReviews: React.FC<GuestReviewsProps> = ({
                 autoplay: false,
               },
             }}
-            classNameSwiperSlide="w-full lg:min-h-[16rem] min-h-[26rem] rounded overflow-hidden"
+            classNameSwiperSlide="w-full"
           >
             {(item) => <GuestReviewCard {...item} />}
           </SliderSwip>

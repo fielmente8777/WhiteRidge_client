@@ -40,11 +40,11 @@ const DoAtHotelCard: React.FC<DoAtHotelProps> = ({
         )}
       </SliderSwip>
 
-      <div className="w-full bg-white pb-4 px-2 min-h-[180px] flex flex-col gap-4">
+      <div className="w-full bg-white pb-4 px-2 min-h-[180px] flex flex-col gap-4 max-md:pb-12">
         <Heading level={3} className="capitalize font-montaga heading3">
           {title}
         </Heading>
-        <p className="">{description}</p>
+        <p className="text-light">{description}</p>
       </div>
     </div>
   );

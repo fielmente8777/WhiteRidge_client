@@ -24,7 +24,7 @@ const Connectivity: React.FC<IConnectivity> = ({
       <div className="flex flex-col items-center justify-center gap-4 ">
         <Heading
           level={2}
-          className="text-center text-primary capitalize  heading4"
+          className="text-center text-primary heading4 uppercase font-medium"
         >
           {title}
         </Heading>

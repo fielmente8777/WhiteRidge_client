@@ -16,15 +16,15 @@ const WhoWeAre = () => {
     <SectionWithContainer>
       <div className="flex flex-col items-center justify-center lg:gap-14 ">
         <div className="flex flex-col gap-1 justify-center">
-          <p className="text-primary text-center">WHITE RIDGE HOTEL</p>
-          <h2 className="text-dark heading2 font-montaga  capitalize text-center">
+          <p className="text-primary text-center heading4 uppercase font-medium">WHITE RIDGE HOTEL</p>
+          <h2 className="text-dark heading3 font-medium uppercase text-center ">
             &quot;A View Like No Other&quot;
           </h2>
         </div>
         <div className="w-full lg:grid grid-cols-3 flex items-center justify-center gap-4">
           <div className="w-full h-[1px] bg-[#D9D9D9]" />
-          <div className="flex items-center justify-center max-md:w-[10rem]">
-           <div className="relative aspect-[4/1.5] max-w-[400px] w-full">
+          <div className="flex items-center justify-center md:w-[10rem] w-full">
+           <div className="relative md:aspect-[4/1.5] aspect-[4/5] md:max-w-[400px] max-w-[800px] w-full">
            <Image
               src={
                 "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Asset1.webp"

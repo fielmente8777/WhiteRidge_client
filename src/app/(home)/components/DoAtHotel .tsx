@@ -29,11 +29,11 @@ const DoAtHotel: React.FC<IDoAtHotelProps> = ({
       <div className="flex flex-col max-width items-center justify-center gap-4 ">
         <Heading
           level={2}
-          className="text-center text-primary capitalize font-montaga heading4"
+          className="text-center text-primary capitalize font-medium heading4"
         >
           {title}
         </Heading>
-        <Paragraph className="text-center heading2 text-white">
+        <Paragraph className="text-center heading3 font-montaga text-white">
           {description}
         </Paragraph>
       </div>

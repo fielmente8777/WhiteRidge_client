@@ -9,7 +9,6 @@ import {
 import {
   contactImages,
   galleryImages,
-  homeImages,
 } from "./links";
 export const homePageData = {
   bannerData: {
@@ -60,7 +59,7 @@ export const homePageData = {
     description: "Thoughtful touches, endless delight",
     items: [
       {
-        icon: homeImages + "/amenities/CarProfile.png",
+        icon: "/parking.png",
         title: "Free Parking",
         description:
           "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
@@ -68,51 +67,51 @@ export const homePageData = {
         color: "#FAE3AF",
       },
       {
-        icon: homeImages + "/amenities/PicnicTable.png",
+        icon: "/Wi-Fi.png",
         title: "Free Wi-Fi",
         description:
           "Stay connected throughout your stay with our fast and reliable complimentary Wi-Fi service.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Restaurant/im1.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/medium.webp",
         color: "#D8D6D7",
       },
       {
-        icon: homeImages + "/amenities/SmileyWink.png",
+        icon: "/restaurant.png",
         title: "Multi-Cuisine Restaurant",
         description:
           "Indulge in a diverse menu offering delicious dishes from around the world in our restaurant.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Bar+lounge/4E1A8037+copy.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/IMG_8411+copy.webp",
         color: "#E7CBCE",
       },
       {
-        icon: homeImages + "/amenities/Eye.png",
+        icon: "/pool.png",
         title: "Mini Swimming Pool",
         description:
           " Take a refreshing dip in our mini swimming pool, perfect for a relaxing break.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Designer.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/pool2.webp",
         color: "#CE905F",
       },
       {
-        icon: homeImages + "/amenities/WifiHigh.png",
+        icon: "/bar.png",
         title: "Bar Area",
         description:
           "Sip on your favorite cocktails and unwind in our vibrant bar area, designed for relaxation.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/medium.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8417+copy.webp",
         color: "#E0E7E9",
       },
       {
-        icon: homeImages + "/amenities/SmileyWink.png",
+        icon: "/hall.png",
         title: "Multipurpose Hall",
         description:
           "Host your events with ease in our versatile multipurpose hall, perfect for any occasion.",
-        src: homeImages + "/gallery/img2.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/DSC_6528+copy.webp",
         color: "#E7CBCE",
       },
       {
-        icon: homeImages + "/amenities/ChefHat.png",
+        icon: "/roof.png",
         title: "Rooftop Lounge",
         description:
           "Experience breathtaking views and cool breezes while enjoying your favorite drinks at our rooftop lounge.",
-        src: homeImages + "/amenities/IM3.png",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8175+copy.webp",
         color: "#B9BDA7",
       },
     ],

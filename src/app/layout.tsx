@@ -33,7 +33,7 @@ export default function RootLayout({
         {children}
         <GreetingCard />
         <Footer />
-        <Whatsapp  />
+        <Whatsapp />
         <Call callNumber="+41 44 123 45 67" />
       </body>
     </html>

@@ -19,10 +19,10 @@ const RoomsSilder: React.FC<{
   return (
     <SectionWithContainer sectionClassName="">
       <div className="flex flex-col items-center justify-center gap-5">
-        <Heading level={2} className="text-center text-primary capitalize font-montaga heading2">
+        <Heading level={2} className="text-center text-primary uppercase font-medium heading4">
           {title}
         </Heading>
-        <Paragraph className="text-center text-dark description1">
+        <Paragraph className="text-center text-dark heading3 font-montaga">
           {description}
         </Paragraph>
         <div className="grid lg:grid-cols-3 grid-cols-1  gap-4 mt-4">

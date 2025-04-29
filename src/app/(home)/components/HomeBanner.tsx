@@ -3,7 +3,6 @@ import Image from "next/image";
 import Section from "../../../components/SectionComponents/Section";
 import Container from "../../../components/SectionComponents/Container";
 import { Heading, Paragraph } from "../../../components/TextAndInputComponents";
-import { navButtons } from "@/data/navData";
 import { useEffect, useState } from "react";
 import CheckInOutForm from "./CheckInOutForm";
 // import { CalendarIcon, DownArrow } from "@/icons/icons";
@@ -37,7 +36,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
 
   return (
     <Section className="!py-0">
-      <div className="w-full relative lg:aspect-[4/1.9] aspect-[4/5.5]">
+      <div className="w-full relative lg:aspect-[4/1.9] aspect-[4/8]">
         <Image
           src={images[0]}
           alt="banner"
@@ -59,16 +58,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
                     className="object-contain hidden lg:block z-10"
                   />
                 </div>
-                <div className="flex lg:hidden items-center gap-4">
-                  {navButtons.map((button) => (
-                    <button
-                      key={button.id}
-                      className={`flex ${button.class} items-center text-white  gap-2 border transition-all duration-500 ease-in-out disabled:border-white disabled:border-opacity-100 border-opacity-0 border-transparent p-1`}
-                    >
-                      {button.icon}
-                    </button>
-                  ))}
-                </div>
+                
                 <div className="flex flex-col items-center max-md:mt-1 justify-center gap-6 ">
                   <Heading
                     level={1}

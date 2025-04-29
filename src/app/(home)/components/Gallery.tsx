@@ -45,11 +45,11 @@ const Gallery: React.FC<GalleryProps> = ({ title, description, images }) => {
         <div className="flex flex-col items-center justify-center gap-4">
           <Heading
             level={2}
-            className="text-center text-primary capitalize font-montaga heading3"
+            className="text-center text-primary uppercase font-medium  heading4"
           >
             {title}
           </Heading>
-          <Paragraph className="text-white text-center heading2">
+          <Paragraph className="text-white text-center heading3 font-montaga">
             {description}
           </Paragraph>
         </div>
