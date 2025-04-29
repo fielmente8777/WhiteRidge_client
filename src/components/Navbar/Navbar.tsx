@@ -98,7 +98,7 @@ const Navbar: React.FC = () => {
       }
     >
       <Container>
-        <nav className="flex md:justify-between items-center uppercase md:gap-2 gap-6 w-full">
+        <nav className="flex justify-between items-center uppercase md:gap-2 gap-6 w-full">
           <div className="lg:hidden block">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -186,7 +186,6 @@ const Navbar: React.FC = () => {
               </li>
             </ul>
           </div>
-          <div className="flex items-center gap-4">
             <Button
               href={bookingUrl}
               label="Book Now"
@@ -197,7 +196,6 @@ const Navbar: React.FC = () => {
               } border max-md:text-[0.78rem] transition-all duration-75 ease-in-out`}
               newTabe={true}
             />
-          </div>
         </nav>
       </Container>
     </header>

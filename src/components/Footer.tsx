@@ -180,7 +180,7 @@ const Footer = () => {
               ))}
             </ul>
             <Paragraph className="text-white text-sm text-center">
-              © {currentYear} Hotel Ora Lakeside. All Rights Reserved.
+              © {currentYear} White Ridge Hotel. All Rights Reserved.
             </Paragraph>
           </div>
         </div>
