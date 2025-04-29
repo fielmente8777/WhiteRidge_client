@@ -93,9 +93,9 @@ export const homePageData = {
       },
       {
         icon: homeImages + "/amenities/WifiHigh.png",
-        title: "Cube Cafe Coffee Shop",
+        title: "Bar Area",
         description:
-          "Grab a freshly brewed coffee or a quick snack at our inviting Cube Cafe.",
+          "Sip on your favorite cocktails and unwind in our vibrant bar area, designed for relaxation.",
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/medium.webp",
         color: "#E0E7E9",
       },
@@ -168,7 +168,10 @@ export const homePageData = {
         description:
           "Conquer the rugged terrains surrounding Dharamshala with our expert-led rock climbing adventures. A thrilling experience that offers both a physical challenge and stunning panoramic views of the mountains.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im11.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl1.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl2.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl3.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl4.webp",
         ],
       },
       {
@@ -176,7 +179,10 @@ export const homePageData = {
         description:
           "Soar above the lush valleys of Dharamshala for an exhilarating paragliding experience. Whether you're a first-timer or an experienced flier, this adventure offers a unique bird's-eye view of the majestic Himalayas.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im12.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl5.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl6.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl7.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl8.webp",
         ],
       },
       {
@@ -184,7 +190,10 @@ export const homePageData = {
         description:
           "Reconnect with nature in the serene environment of Dharamshala with our curated camping experiences. Enjoy cozy tents, a warm campfire, and the peaceful sounds of the wilderness under a starlit sky.",
         images: [
-         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im13.webp",
+         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl9.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl10.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl11.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl12.webp",
         ],
       },
       {
@@ -192,7 +201,10 @@ export const homePageData = {
         description:
           "Push your limits with an exciting river crossing adventure. Perfect for thrill-seekers, this activity offers an adrenaline rush while enjoying the natural beauty of the surroundings.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im14.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl13.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl14.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl15.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl16.webp",
         ],
       },
       {
@@ -200,7 +212,10 @@ export const homePageData = {
         description:
           "Embark on a peaceful jungle walk and explore the rich biodiversity of Dharamshala's forests. A guided nature walk gives you the chance to connect with the landscape while spotting local wildlife and flora.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im15.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl17.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl18.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl19.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl20.webp",
         ],
       },
     ],
