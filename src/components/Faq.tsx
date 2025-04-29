@@ -19,7 +19,7 @@ const Faq: React.FC<FaqProps> = ({ title, description, item }) => {
         <div className="w-full md:mt-6">
           {item.map((data) => (
             <div
-              className={`${item.length - data.id ? "border-t" : "border-b border-t"} border-light w-full p-6`}
+              className={`${item.length - data.id ? "border-t" : "border-b border-t"} border-light w-full md:p-6`}
               key={data.id}
             >
               <Accordion {...data} />
