@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
+import "swiper/css/pagination";
 import Image from "next/image";
 import { NextIcon, PrevIcon } from "@/icons/icons";
 
@@ -15,7 +16,7 @@ const ThumbsCardsSlider = ({ images, index }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <div className="w-full relative thumbs">
+    <div className="w-full thumbs">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -29,10 +30,11 @@ const ThumbsCardsSlider = ({ images, index }) => {
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs, Pagination]}
         pagination={{
+          el: ".thumb-page" + index,
+          clickable: true,
           type: "fraction",
-          el: ".thumbs-pagination" + index,
           renderFraction: (currentClass, totalClass) => {
-            return `<span class="${currentClass} font-montaga "></span> / <span class="${totalClass} font-montaga"></span>`;
+            return `<span class="${currentClass} font-montaga text-[#262626]"></span><span class="text-[#262626] block"> /</span> <span class="${totalClass} font-montaga text-[#262626]"></span>`;
           },
         }}
         className="mySwiper2"
@@ -49,7 +51,7 @@ const ThumbsCardsSlider = ({ images, index }) => {
         ))}
       </Swiper>
 
-      <div className="flex mt-6 items-center justify-between">
+      <div className="flex mt-6 items-center justify-between w-full">
         <button
           className={`disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 disabled:active:scale-100 thumbs-prev${index} text-primary hover:scale-105 active:scale-95 w-8 aspect-square flex items-center justify-center`}
         >
@@ -58,12 +60,13 @@ const ThumbsCardsSlider = ({ images, index }) => {
         <Swiper
           onSwiper={setThumbsSwiper}
           spaceBetween={10}
-          slidesPerView={images?.length}
+          slidesPerView={images?.length > 7 ? 5 : images?.length}
           // slidesPerView={5}
+
           freeMode={true}
           watchSlidesProgress={true}
-          modules={[FreeMode, Navigation, Thumbs]}
-          className=" !ml-0 w-full"
+          modules={[FreeMode, Navigation, Thumbs, Pagination]}
+          className=" w-full"
         >
           {images?.map((image, index) => (
             <SwiperSlide
@@ -80,9 +83,9 @@ const ThumbsCardsSlider = ({ images, index }) => {
           ))}
         </Swiper>
         <div
-          className={`thumbs-pagination${index} font-montaga w-max text-[#262626]`}
+          className={`thumb-page${index} font-montaga !w-[3.5rem] text-[#262626]`}
         >
-          <span className="swiper-pagination-current"></span> /{" "}
+          <span className="swiper-pagination-current"></span> <span className="text-[#262626] block">/</span>{" "}
           <span className="swiper-pagination-total"></span>
         </div>
         <button

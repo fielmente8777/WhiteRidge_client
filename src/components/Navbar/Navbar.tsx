@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
           ? "py-3 fixed top-0 left-0 w-full z-50 max-md:py-4 bg-white shadow-2xl"
           : `transition-all duration-500 ease-in-out fixed top-0 left-0 w-full z-50 py-4 ${
               navbar
-                ? "sticky bg-white text-primary animate-top-down"
+                ? "sticky bg-white text-primary "
                 : "bg-transparent text-white"
             }`
       }
@@ -121,7 +121,7 @@ const Navbar: React.FC = () => {
               <MobileNavbar setIsOpen={setIsOpen} />
             </div>
           </div>
-          <Link href="/" className="flex flex-col">
+          <Link href="/" className="flex flex-col max-lg:-mr-14">
             <span
               className={`relative lg:block hidden lg:h-[5rem] h-14 lg:aspect-[4/2] aspect-[4/1.2] transition-all duration-300 ease-in-out ${
                 navbar

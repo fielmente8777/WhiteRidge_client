@@ -23,8 +23,8 @@ const WhoWeAre = () => {
         </div>
         <div className="w-full lg:grid grid-cols-3 flex items-center justify-center gap-4">
           <div className="w-full h-[1px] bg-[#D9D9D9]" />
-          <div className="flex items-center justify-center md:w-[10rem] w-full">
-           <div className="relative md:aspect-[4/1.5] aspect-[4/5] md:max-w-[400px] max-w-[800px] w-full">
+          <div className="flex items-center justify-center w-[20rem]  lg:w-full">
+           <div className="relative md:aspect-[4/1.5] aspect-[4/4] my-auto w-full">
            <Image
               src={
                 "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Asset1.webp"

@@ -438,10 +438,10 @@ export const roomsPageData = {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8326+copy.webp",
           alt: "dsdsd",
         },
-        {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8310+copy.webp",
-          alt: "dsdsd",
-        },
+        // {
+        //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8310+copy.webp",
+        //   alt: "dsdsd",
+        // },
         {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8307+copy.webp",
           alt: "dsdsd",
@@ -454,10 +454,10 @@ export const roomsPageData = {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8299+copy.webp",
           alt: "dsdsd",
         },
-        {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8315+copy.webp",
-          alt: "dsdsd",
-        },
+        // {
+        //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8315+copy.webp",
+        //   alt: "dsdsd",
+        // },
         {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8329+copy.webp",
           alt: "dsdsd",
@@ -466,10 +466,10 @@ export const roomsPageData = {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8332+copy.webp",
           alt: "dsdsd",
         },
-        {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8315+copy.webp",
-          alt: "dsdsd",
-        },
+        // {
+        //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8315+copy.webp",
+        //   alt: "dsdsd",
+        // },
         {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8321+copy.webp",
           alt: "dsdsd",
