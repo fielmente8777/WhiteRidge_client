@@ -98,7 +98,9 @@ const Navbar: React.FC = () => {
       }
     >
       <Container>
-        <nav className={`flex items-center uppercase  w-full ${navbar || pathname !== "/" ? "justify-between" : "justify-center gap-7"}`}>
+        <nav
+          className={`flex items-center uppercase  w-full ${navbar || pathname !== "/" ? "justify-between" : "justify-center gap-7"}`}
+        >
           <div className="lg:hidden block">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -151,44 +153,44 @@ const Navbar: React.FC = () => {
               />
             </span>
           </Link>
-          <div className="lg:flex hidden">
-            <ul className="flex items-center gap-4">
-              {NavLink.map((link) => (
-                <li className="relative group" key={link.id}>
-                  <Link
-                    href={link.href}
-                    className={`transition-all font-medium duration-100 ease-linear py-2 px-4 group flex flex-col items-center justify-center ${
-                      navbar || pathname !== "/" ? "text-dark" : "text-white"
-                    }`}
-                  >
-                    {link.name}
-                    <span
-                      className={`block w-0 h-[2px] absolute bottom-0 ${
-                        pathname === link.href && "w-full"
-                      } ${
-                        navbar || pathname !== "/" ? "bg-light" : "bg-white"
-                      } mt-1 transition-all duration-300 ease-in-out group-hover:w-full`}
-                    ></span>
-                  </Link>
-                </li>
-              ))}
-              <li
-                className={` items-center gap-2 ${!navbar || pathname !== "/" ? "flex" : "hidden"}`}
-              >
-                {currentTime && (
+          <ul className="lg:flex hidden items-center gap-4">
+            {NavLink.map((link) => (
+              <li className="relative group" key={link.id}>
+                <Link
+                  href={link.href}
+                  className={`transition-all font-medium duration-100 ease-linear py-2 px-4 group flex flex-col items-center justify-center ${
+                    navbar || pathname !== "/" ? "text-dark" : "text-white"
+                  }`}
+                >
+                  {link.name}
                   <span
-                    className={`md:text-base text-sm font-medium text-white
-                    transition-all duration-75 ease-in-out`}
-                  >
-                    {currentTime}
-                    {temp && `, ${temp}°C`}
-                  </span>
-                )}
+                    className={`block w-0 h-[2px] absolute bottom-0 ${
+                      pathname === link.href && "w-full"
+                    } ${
+                      navbar || pathname !== "/" ? "bg-light" : "bg-white"
+                    } mt-1 transition-all duration-300 ease-in-out group-hover:w-full`}
+                  ></span>
+                </Link>
               </li>
-            </ul>
-          </div>
+            ))}
+            <li
+              className={` ${navbar || pathname !== "/" ? "hidden" : "flex items-center gap-2"}`}
+            >
+              {currentTime && (
+                <span
+                  className={`md:text-base text-sm font-medium text-white
+                    transition-all duration-75 ease-in-out`}
+                >
+                  {currentTime}
+                  {temp && `, ${temp}°C`}
+                </span>
+              )}
+            </li>
+          </ul>
           <div className="lg:flex hidden items-center gap-8">
-            <div className={` items-center gap-2 ${!navbar || pathname !== "/" ? "hidden" : "flex"}`}>
+            <div
+              className={` items-center gap-2 ${navbar || pathname !== "/" ? "flex" : " hidden"}`}
+            >
               {currentTime && (
                 <span
                   className={`md:text-base text-sm font-medium text-[#777777] transition-all duration-75 ease-in-out`}

@@ -36,7 +36,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
 
   return (
     <Section className="!py-0">
-      <div className="w-full relative lg:aspect-[4/1.9] aspect-[4/8]">
+      <div className="w-full relative lg:aspect-[4/1.95] aspect-[4/8]">
         <Image
           src={images[0]}
           alt="banner"
