@@ -98,7 +98,7 @@ const Navbar: React.FC = () => {
       }
     >
       <Container>
-        <nav className="flex justify-between items-center uppercase md:gap-2 gap-6 w-full">
+        <nav className={`flex items-center uppercase  w-full ${navbar || pathname !== "/" ? "justify-between" : "justify-center gap-7"}`}>
           <div className="lg:hidden block">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -151,7 +151,7 @@ const Navbar: React.FC = () => {
               />
             </span>
           </Link>
-          <div className="lg:flex hidden items-center justify-center gap-4 text-base">
+          <div className="lg:flex hidden">
             <ul className="flex items-center gap-4">
               {NavLink.map((link) => (
                 <li className="relative group" key={link.id}>
@@ -172,12 +172,13 @@ const Navbar: React.FC = () => {
                   </Link>
                 </li>
               ))}
-              <li className="flex items-center gap-2">
+              <li
+                className={` items-center gap-2 ${!navbar || pathname !== "/" ? "flex" : "hidden"}`}
+              >
                 {currentTime && (
                   <span
-                    className={`md:text-base text-sm font-medium ${
-                      navbar || pathname !== "/" ? "text-dark" : "text-white"
-                    } transition-all duration-75 ease-in-out`}
+                    className={`md:text-base text-sm font-medium text-white
+                    transition-all duration-75 ease-in-out`}
                   >
                     {currentTime}
                     {temp && `, ${temp}°C`}
@@ -186,16 +187,28 @@ const Navbar: React.FC = () => {
               </li>
             </ul>
           </div>
+          <div className="lg:flex hidden items-center gap-8">
+            <div className={` items-center gap-2 ${!navbar || pathname !== "/" ? "hidden" : "flex"}`}>
+              {currentTime && (
+                <span
+                  className={`md:text-base text-sm font-medium text-[#777777] transition-all duration-75 ease-in-out`}
+                >
+                  {currentTime}
+                  {temp && `, ${temp}°C`}
+                </span>
+              )}
+            </div>
             <Button
               href={bookingUrl}
               label="Book Now"
               className={`${
                 navbar || pathname !== "/"
-                  ? " border-primary"
-                  : "bg-transparent border-white"
+                  ? " border-primary hover:bg-white hover:text-primary bg-primary text-white "
+                  : "bg-transparent border-white  "
               } border max-md:text-[0.78rem] transition-all duration-75 ease-in-out`}
               newTabe={true}
             />
+          </div>
         </nav>
       </Container>
     </header>
