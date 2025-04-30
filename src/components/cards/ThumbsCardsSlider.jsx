@@ -34,7 +34,7 @@ const ThumbsCardsSlider = ({ images, index }) => {
           clickable: true,
           type: "fraction",
           renderFraction: (currentClass, totalClass) => {
-            return `<span class="${currentClass} font-montaga text-[#262626]"></span><span class="text-[#262626] block"> /</span> <span class="${totalClass} font-montaga text-[#262626]"></span>`;
+            return `<span class="${currentClass} font-montaga text-[#262626]"></span><span class="text-[#262626] inline-block"> /</span> <span class="${totalClass} font-montaga text-[#262626]"></span>`;
           },
         }}
         className="mySwiper2"
@@ -85,7 +85,7 @@ const ThumbsCardsSlider = ({ images, index }) => {
         <div
           className={`thumb-page${index} font-montaga !w-[3.5rem] text-[#262626]`}
         >
-          <span className="swiper-pagination-current"></span> <span className="text-[#262626] block">/</span>{" "}
+          <span className="swiper-pagination-current"></span> <span className="text-[#262626] inline-block">/</span>{" "}
           <span className="swiper-pagination-total"></span>
         </div>
         <button
