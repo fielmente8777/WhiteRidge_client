@@ -29,7 +29,7 @@ const CheckInOutForm = () => {
   };
 
   return (
-    <div className="max-w-[50.5rem] mx-auto w-full bg-white md:px-4 max-lg:mt-4">
+    <div className="max-w-[50.5rem] border border-black mx-auto w-full bg-white md:px-4 max-lg:mt-4">
       <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
         {/* Arrival Date Input */}
         <div className="flex flex-col gap-2 items-center justify-center p-4 w-full">
@@ -105,11 +105,14 @@ const CheckInOutForm = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="border-b relative border-dark text-center w-full flex items-center justify-center gap-2 pb-px cursor-pointer"
           >
-            {data.adults} Adult{data.adults !== 1 ? 's' : ''}
-            {data.children > 0 && `, ${data.children} Child${data.children !== 1 ? 'ren' : ''}`}
-            <DropDownIcon className={`w-[17px] transition-transform ${isOpen ? "rotate-0" : "rotate-180"}`} />
-            <NumberOfGuests 
-              isOpen={isOpen} 
+            {data.adults} Adult{data.adults !== 1 ? "s" : ""}
+            {data.children > 0 &&
+              `, ${data.children} Child${data.children !== 1 ? "ren" : ""}`}
+            <DropDownIcon
+              className={`w-[17px] transition-transform ${isOpen ? "rotate-0" : "rotate-180"}`}
+            />
+            <NumberOfGuests
+              isOpen={isOpen}
               adults={data.adults}
               NoOfChildren={data.children}
               onGuestChange={handleGuestChange}
@@ -134,23 +137,23 @@ interface NumberOfGuestsProps {
   onGuestChange: (type: "adults" | "children", value: number) => void;
 }
 
-const NumberOfGuests: React.FC<NumberOfGuestsProps> = ({ 
-  isOpen, 
-  adults, 
-  NoOfChildren, 
-  onGuestChange 
+const NumberOfGuests: React.FC<NumberOfGuestsProps> = ({
+  isOpen,
+  adults,
+  NoOfChildren,
+  onGuestChange,
 }) => {
   const guestData = [
     { type: "adults", label: "Adults", value: adults },
-    { type: "children", label: "Children", value: NoOfChildren }
+    { type: "children", label: "Children", value: NoOfChildren },
   ];
 
   const handleIncrement = (type: "adults" | "children") => {
-    onGuestChange(type, guestData.find(g => g.type === type)!.value + 1);
+    onGuestChange(type, guestData.find((g) => g.type === type)!.value + 1);
   };
 
   const handleDecrement = (type: "adults" | "children") => {
-    const currentValue = guestData.find(g => g.type === type)!.value;
+    const currentValue = guestData.find((g) => g.type === type)!.value;
     if (currentValue > (type === "adults" ? 1 : 0)) {
       onGuestChange(type, currentValue - 1);
     }
@@ -168,7 +171,9 @@ const NumberOfGuests: React.FC<NumberOfGuestsProps> = ({
             <span className="text-xs font-medium">{guest.label}</span>
             <div className="flex items-center justify-end gap-2">
               <button
-                onClick={() => handleDecrement(guest.type as "adults" | "children")}
+                onClick={() =>
+                  handleDecrement(guest.type as "adults" | "children")
+                }
                 disabled={guest.value <= (guest.type === "adults" ? 1 : 0)}
                 className="w-4 h-4 aspect-square rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
               >
@@ -178,7 +183,9 @@ const NumberOfGuests: React.FC<NumberOfGuestsProps> = ({
                 {guest.value}
               </span>
               <button
-                onClick={() => handleIncrement(guest.type as "adults" | "children")}
+                onClick={() =>
+                  handleIncrement(guest.type as "adults" | "children")
+                }
                 className="w-4 h-4 aspect-square rounded-full bg-gray-100 flex items-center justify-center"
               >
                 <GoPlus />

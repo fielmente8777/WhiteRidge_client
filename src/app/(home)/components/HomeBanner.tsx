@@ -1,10 +1,9 @@
 "use client";
 import Image from "next/image";
-import Section from "../../../components/SectionComponents/Section";
-import Container from "../../../components/SectionComponents/Container";
-import { Heading, Paragraph } from "../../../components/TextAndInputComponents";
 import { useEffect, useState } from "react";
-import CheckInOutForm from "./CheckInOutForm";
+import Container from "../../../components/SectionComponents/Container";
+import Section from "../../../components/SectionComponents/Section";
+import { Heading, Paragraph } from "../../../components/TextAndInputComponents";
 // import { CalendarIcon, DownArrow } from "@/icons/icons";
 interface HomeBannerProps {
   images: string[];
@@ -36,7 +35,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
 
   return (
     <Section className="!py-0">
-      <div className="w-full relative lg:aspect-[4/1.95] aspect-[4/8]">
+      <div className="w-full relative lg:aspect-[4/2] aspect-[4/8]">
         <Image
           src={images[0]}
           alt="banner"
@@ -49,7 +48,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
             <Container className="h-full">
               <div className="flex flex-col items-center justify-between w-full h-full">
                 <div
-                  className={` relative aspect-square h-[168px] ${navbar ? "opacity-0" : "opacity-100"}`}
+                  className={` relative aspect-square h-[190px] ${navbar ? "opacity-0" : "opacity-100"}`}
                 >
                   <Image
                     src="/logo.png"
@@ -58,7 +57,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
                     className="object-contain hidden lg:block z-10"
                   />
                 </div>
-                
+
                 <div className="flex flex-col items-center max-md:mt-1 justify-center gap-6 ">
                   <Heading
                     level={1}
@@ -70,7 +69,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
                     {description}
                   </Paragraph>
                 </div>
-                <CheckInOutForm />
+                {/* <CheckInOutForm /> */}
               </div>
             </Container>
           </div>

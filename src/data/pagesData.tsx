@@ -6,10 +6,7 @@ import {
   PhoneIcon,
   Location,
 } from "../icons/icons";
-import {
-  contactImages,
-  galleryImages,
-} from "./links";
+import { contactImages, galleryImages } from "./links";
 export const homePageData = {
   bannerData: {
     title: "Timeless • Serene • Tranquil",
@@ -189,7 +186,7 @@ export const homePageData = {
         description:
           "Reconnect with nature in the serene environment of Dharamshala with our curated camping experiences. Enjoy cozy tents, a warm campfire, and the peaceful sounds of the wilderness under a starlit sky.",
         images: [
-         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl9.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl9.webp",
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl10.webp",
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl11.webp",
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl12.webp",
@@ -207,9 +204,9 @@ export const homePageData = {
         ],
       },
       {
-        title: "Jungle Walks",
+        title: "Nature Walks",
         description:
-          "Embark on a peaceful jungle walk and explore the rich biodiversity of Dharamshala's forests. A guided nature walk gives you the chance to connect with the landscape while spotting local wildlife and flora.",
+          "Embark on a peaceful nature walk and explore the rich biodiversity of Dharamshala's forests. A guided nature walk gives you the chance to connect with the landscape while spotting local wildlife and flora.",
         images: [
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl17.webp",
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl18.webp",
@@ -293,7 +290,7 @@ export const homePageData = {
       {
         id: 3,
         title: "Are retiring rooms available for drivers?",
-        content: `No, retiring rooms Are not available.`,
+        content: `No, retiring rooms are not available.`,
       },
       {
         id: 4,
@@ -364,7 +361,7 @@ export const roomsPageData = {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8270+copy.webp",
           alt: "dsdsd",
         },
-        
+
         {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8292+copy.webp",
           alt: "dsdsd",
@@ -414,10 +411,9 @@ export const roomsPageData = {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8253+copy.webp",
           alt: "dsdsd",
         },
-       
       ],
       list: [
-       "FREE WIFI",
+        "FREE WIFI",
         "SAFE LOCKER ",
         "HOUSE KEEPING",
         "KETTLE",
@@ -432,7 +428,7 @@ export const roomsPageData = {
       title: "Executive Suite Room",
       description:
         "Indulge in the ultimate rustic vibes with our Executive Suite Room, designed for those who appreciate style, comfort, and privacy, with an elevated view of Dharamshala's natural beauty",
-      price: "₹6799/Day",
+      price: "₹7300/Day",
       images: [
         {
           src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8326+copy.webp",
@@ -529,7 +525,6 @@ export const galleryPageData = {
     src: galleryImages + "/img1.webp",
   },
   galleryData: [
-   
     {
       title: "Terrace",
       images: [
@@ -556,7 +551,7 @@ export const galleryPageData = {
     {
       title: "Bar Lounge",
       images: [
-       "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8414+copy.webp",
+        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8414+copy.webp",
         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8417+copy.webp",
       ],
     },
@@ -571,11 +566,11 @@ export const contactPageData = {
     link: [
       {
         label: "call us",
-        href: "tel:+91 98160 91658",
+        href: "tel:+919816091658",
       },
       {
         label: "Send a message",
-        href: "https://wa.me/+919816091658?text=Hello%2C+I+would+like+to+inquire+about+room+availability+and+rates.",
+        href: "https://wa.me/+919805964704?text=Hello%2C+I+would+like+to+inquire+about+room+availability+and+rates.",
       },
     ],
   },
