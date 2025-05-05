@@ -527,6 +527,7 @@ export const galleryPageData = {
       images: [
         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/IMG_8408+copy.webp",
         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/IMG_8411+copy.webp",
+        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/DSC_6511+copy.webp",
       ],
     },
     {
@@ -534,6 +535,7 @@ export const galleryPageData = {
       images: [
         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8414+copy.webp",
         "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8417+copy.webp",
+        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/DSC_6653+copy.webp"
       ],
     },
   ],
@@ -824,7 +826,6 @@ export const policyPagesData = {
     ],
   },
   policyData:{
-    
       description: [
         'White Ridge Hotel ("we", "us", "our") provides the information set out on the www.whiteridgehotel.com website (the "Website") solely for information purposes.',
         "Your use of the Website is governed by this Privacy Policy and our Disclaimer. Any room reservation you make with us shall additionally be subject to our Terms and Conditions, as well as the terms of our room booking operator.",
