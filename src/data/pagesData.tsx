@@ -638,7 +638,7 @@ export const policyPagesData = {
     data: [
       {
         title: "APPLICATION OF TERMS",
-        list: [
+        desc: [
           "These terms apply to all bookings to the exclusion of all other terms and conditions except to the extent that specific terms apply for a particular booking and have been signed in writing by an Authorised Representative of the Company.",
           "Confirmation of a booking by the Client is deemed acceptance of these terms.",
           "The term Client and Guest shall be used interchangeably in the Terms of Business and reference to any one of them shall be deemed to include reference to the other.",
@@ -646,7 +646,7 @@ export const policyPagesData = {
       },
       {
         title: "PRICES",
-        list: [
+        desc: [
           "All published prices is room only plus GST as per current rate.",
           "The Hotel reserves the right to alter prices for any reason up to the date of booking or up to 1 weeks prior to arrival, whichever is the later.",
           "After such dates, prices may only be altered to reflect a change in the rate of GST or for any other reason outside of the control of the Hotel, in which case the changes will be notified to the Client. In the latter event, the Client may cancel the booking without cost.",
@@ -654,20 +654,20 @@ export const policyPagesData = {
       },
       {
         title: "AVAILABILITY",
-        list: [
+        desc: [
           "All rooms and prices offered by the Hotel are subject to availability and the discretion of the Hotel Manager.",
           "Limited numbers of suitable rooms may be allocated to individual rates, packages or promotions and, when these allocations are taken up, remaining available rooms may be offered to the Client at a higher price where the Client requires such rooms.",
         ],
       },
       {
         title: "BOOKINGS",
-        list: [
+        desc: [
           "Bookings must be guaranteed for the first night's accommodation by a major credit or debit card, by payment of a deposit or by agreement in writing with a company, travel agent or hotel booking agency. At the discretion of the Hotel, full prepayment may be required. At least 3 working days are required to process credit and debit card payments and 5 working days to process cheque payments.",
         ],
       },
       {
         title: "ARRIVAL AND DEPARTURE",
-        list: [
+        desc: [
           "Guestrooms are usually available from 2pm local time on the day of arrival. However, the Hotel is not in any way obliged to make bedrooms available to Clients at this time.",
           "Departure is by 11am local time. Failure to check out by 11am local time will entitle the Hotel to charge an additional fee.",
           "Where possible, at times of high demand when bedrooms are not available at the check in time, Clients may check in to the hotel and use all the Hotel facilities, subject to any rules and restrictions in place at the Hotel in respect of the use of such facilities, including but not limited to opening times, supervision of children and infants etc. whilst the accommodation is being prepared.",
@@ -676,7 +676,7 @@ export const policyPagesData = {
       },
       {
         title: "CANCELLATIONS, AMENDMENTS AND NON-ARRIVALS",
-        list: [
+        desc: [
           "The Hotel reserves the right to offset any amount payable for such cancellation against the Client's credit or debit card without prior notice or the approval of the Client, where applicable.",
           "If the Hotel cancels before 12 noon local time on the scheduled day of arrival, the Hotel's liability to the Client will be no greater than the amount paid by the Client in respect of the booking.",
           "If the Hotel cancels the booking after 12 noon local time on the scheduled day of arrival, the Hotel's liability will be limited to the charge for one night's accommodation at the Hotel's rate which applies at the time that the booking was made.",
@@ -687,7 +687,7 @@ export const policyPagesData = {
       },
       {
         title: "PAYMENT",
-        list: [
+        desc: [
           "Upon arrival the Hotel reserves the right to collect total payment for the company duration of stay from client credit card/debit card/ cash, any additional incidental charges will be settled in final invoice prior to departure from hotel.",
           "All major credit and debit cards are accepted. Personal cheques are not accepted. Company cheques are acceptable subject to prior clearance before checking.",
           "All sums are due for payment on presentation of the invoice. In the event of any query relating to the invoice, the Client must notify the Hotel within 7 days of the invoice date and the Client's obligation to pay all outstanding balances immediately will not be affected.",
@@ -695,125 +695,120 @@ export const policyPagesData = {
       },
       {
         title: "CHILDREN",
-        list: [
+        desc: [
           "Children aged 15 years and under must be accompanied by a responsible adult at all times to ensure that the children's behaviour is appropriate for other guests within the Hotel.",
           "At the discretion of the Hotel, children may be excluded from certain events or promotions where deemed unsuitable or inappropriate.",
         ],
       },
       {
         title: "ROOMS FOR DISABLED GUESTS",
-        list: [
+        desc: [
           "A number of hotels offer modified facilities for use by Guests with disabilities. As needs do vary, Guests are requested to check with the hotel on info@whiteridgehotel.com",
         ],
       },
       {
         title: "DOGS AND OTHER PETS",
-        list: ["The hotel does not accept pets."],
+        desc: ["The hotel does not accept pets."],
       },
       {
         title: "BEHAVIOUR",
-        list: [
+        desc: [
           "The Hotel reserves the right to judge acceptable levels of noise or behaviour of Clients, Guests or representatives, who must take all steps for corrective action as requested by the Hotel.",
           "In the event of failure to comply with management requests, the Hotel may terminate the booking, stop any event immediately and / or ask the Client to vacate the Hotel premises immediately without being liable for any refund or compensation.",
         ],
       },
       {
         title: "RIGHT OF REFUSAL",
-        list: [
+        desc: [
           "The Hotel reserves the right to refuse a Client, Guest or representative entry and accommodation if, on arrival, management reasonably considers that the guest is under the influence of alcohol or drugs, and is unsuitably dressed or is behaving in a threatening, abusive or otherwise unacceptable manner."
         ]
       },
       {
         title: "DISCRIMINATION",
-        list: [
+        desc: [
           "It is the policy of the Hotel not to discriminate on the grounds of race, colour, nationality, religion, sex, marital status, age, ethnic origin or disability.",
           "Clients, their employees, guests and all sub-contractors engaged by or on behalf of the Client are expected to adhere to this policy and the Hotel may, without incurring any liability to the Client, remove from the Hotel any person or persons offending against this policy."
         ]
       },
       {
         title: "EXTERNAL PURCHASES",
-        list: [
+        desc: [
           "No wines, spirits, beers or food may be brought into the Hotel or Hotel grounds by Clients, their guests or representatives for consumption or sale on the premises without the express written consent of the Hotel and for which a charge may be made by the Hotel."
         ]
       },
       {
         title: "COMMENTS AND COMPLAINTS",
-        list: [
-          "Any comments or complaint regarding the Hotel should be made to the General Manager at the time of visit so that the matter can be resolved immediately.",
-          "Alternatively, write within 7 days to the Hotel's General Manager."
+        desc: [
+          "Any comments or complaint regarding the Hotel should be made to the General Manager at the time of visit so that the matter can be resolved immediately. Alternatively, write within 7 days to the Hotel's General Manager."
         ]
       },
       {
         title: "STATUTORY REQUIREMENTS",
-        list: [
+        desc: [
           "The Hotel is subject to statutory controls, including those relating to fire, licensing, entertainment, health, hygiene and safety. These must be strictly observed by Clients, their guests and representatives."
         ]
       },
       {
         title: "LIABILITY",
-        list: [
+        desc: [
           "Other than for death or personal injury caused by the negligence of the Hotel, the Hotel's liability to the Client is limited to the price of the booking.",
           "Unless the Hotel is liable under the above condition 18.1, the Client indemnifies the Hotel from and against any and all liability and any claims, proceedings or damages resulting or arising from the booking, event or function, the Client, guests or any outside contractors of the Client.",
           "The Hotel will not be liable for failure to perform to the extent that the failure is caused by any factor beyond its reasonable control.",
-          "The Hotel does not accept any responsibility for the Client's personal property nor those of its guests, employees, representatives, invitees or contractors including gifts, presents, seminar, conference, exhibition, or other corporate presentation material or such other items brought by the Client, its employees, Guests, representatives, invitees or contractors to the Hotel (cumulatively referred to as the 'Client's Property').",
-          "The Hotel may, at the request of the Client, provide personnel to assist in carrying, directing, placing, installing or setting up (as the case may be) the Client's Property.",
-          "The Hotel will not assume custody or control of such articles, which remain on Hotel premises at the owners risk.",
-          "In such an instance, the Client acknowledges and accepts that the Client shall remain responsible for the Client's Property and shall not hold the Hotel liable in any manner whatsoever.",
+          "The Hotel does not accept any responsibility for the Client's personal property nor those of its guests, employees, representatives, invitees or contractors including gifts, presents, seminar, conference, exhibition, or other corporate presentation material or such other items brought by the Client, its employees, Guests, representatives, invitees or contractors to the Hotel (cumulatively referred to as the 'Client's Property'). The Hotel may, at the request of the Client, provide personnel to assist in carrying, directing, placing, installing or setting up (as the case may be) the Client's Property. The Hotel will not assume custody or control of such articles, which remain on Hotel premises at the owners risk. In such an instance, the Client acknowledges and accepts that the Client shall remain responsible for the Client's Property and shall not hold the Hotel liable in any manner whatsoever.",
           "The Client is responsible for any damage caused to the allocated rooms, its furnishings, utensils, fixtures and fittings and equipment in such rooms by any act, omission, default or neglect of the Client, its guests, employees, representatives, invitees or contractors and shall pay to the Hotel on demand the amount required to make good or remedy any such damage.",
           "Clients should ensure that valuables are covered by the Client's own insurance policy.",
           "Clients must report any loss of or damage to their property immediately on discovery to the Hotel's Management, and shall make themselves available to assist with any reports made by the Hotel to the police.",
-          "Clients shall not enter areas of the Hotel which are indicated as being closed to the public.",
-          "The Hotel shall not be responsible for death, personal injury or loss or damage to property suffered by a Client and their Guests in such areas."
+          "Clients shall not enter areas of the Hotel which are indicated as being closed to the public. The Hotel shall not be responsible for death, personal injury or loss or damage to property suffered by a Client and their Guests in such areas."
         ]
       },
       {
         title: "THIRD PARTY LIABILITY",
-        list: [
+        desc: [
           "Neither the Hotel, the Company accept any liability for services rendered by third parties to Clients notwithstanding that such services may be arranged by the Hotel or the Company.",
           "Any claim, demand, charge, suit or damages which may be incurred by the Client or their Guests (or any person claiming thereunder) shall be made directly with such third parties and the Hotel shall render all reasonable assistance in this regard."
         ]
       },
       {
         title: "INSURANCE",
-        list: [
+        desc: [
           "The Client is recommended to have and is responsible for insurance to cover cancellation, curtailment, and loss of baggage, personal effects and money.",
         ],
       },
       {
         title: "DATA PROTECTION",
-        list: [
+        desc: [
           "The information provided by the Client may be processed by the Company, and/or the Hotel for the purposes it has notified to the Data Protection Registrar. By confirming the booking, the Client consents to this processing of the information.",
           "View full details of our Privacy Policy",
         ],
       },
       {
         title: "DISPUTE",
-        list: [
+        desc: [
           "These terms will be construed in accordance with Indian law and the Hotel and the Client submit to the non-exclusive jurisdiction of court in Dharamshala, Himachal Pradesh.",
         ],
       },
       {
         title: "INTERNET FACILITIES",
-        list: [
+        desc: [
           "Internet facilities are provided by third party providers. Where these facilities are available in Hotel, the Client acknowledges that there may be disruption to the connection without prior notice and the Hotel shall not be liable whatsoever for such disruption. The Client further undertakes not to use the facility for any fraudulent purpose or in connection with any criminal offence and in contravention of any license and will indemnify the Hotel and the Company against any claim, demand, suit, proceeding or prosecution arising therefrom.",
         ],
       },
       {
         title: "WEBSITE INFORMATION",
-        list: [
+        desc: [
           "White Ridge Hotel cannot accept responsibility for any errors or omissions and reserve the right to cancel, amend or vary the arrangements featured in the site without notice.",
         ],
       },
       {
         title: "ACCESSIBILITY",
-        list: [
+        desc: [
           "White Ridge Hotel is committed to improving accessibility for all customers within our hotel and users of our Internet site.",
           "If you require more information on disabled rooms at our hotels, please contact the hotel directly.",
         ],
       },
       {
         title: "COPYRIGHT",
-        list: [
+        desc: [
           "The content of each page of this Internet site is the property of White Ridge Hotel.",
           "No part of our internet site may be reproduced, displayed or republished in any form without prior consent, except that permission is granted to a user to print or photocopy individual articles or entire pages from our Internet site, provided that this is for personal use only.",
           "Should you require any further information or permission to use anything contained in this site, please contact the Sales Manager at White Ridge Hotel.",
@@ -822,10 +817,100 @@ export const policyPagesData = {
       },
       {
         title: "INTERNET SITE SECURITY",
-        list: [
+        desc: [
           "Booking online through our Internet site is safe. Security of our site is paramount and we have invested a great deal of time and money to ensure you can have the peace of mind that your details are secure. Our online reservation system is secure and your credit card.",
         ],
       },
     ],
   },
+  policyData:{
+    
+      description: [
+        'White Ridge Hotel ("we", "us", "our") provides the information set out on the www.whiteridgehotel.com website (the "Website") solely for information purposes.',
+        "Your use of the Website is governed by this Privacy Policy and our Disclaimer. Any room reservation you make with us shall additionally be subject to our Terms and Conditions, as well as the terms of our room booking operator.",
+        "By using any part of the Website and/or submitting any information to us through the Website, you agree to the terms set forth in our Disclaimer and this Privacy Policy, and you agree that any of your personal data obtained through the Website may be processed in accordance with our Privacy Policy.",
+        "If you have any questions regarding these documents, please contact us via info@whiteridgehotel.com."
+      ],
+  data: [
+      {
+        title: "GENERAL",
+        desc: [
+          "We are concerned with the protection of your privacy and will comply with all applicable Indian data protection legislation."
+        ]
+      },
+      {
+        title: "COLLECTION OF PERSONAL DATA",
+        desc: [
+          "We may collect your personal data on the occasions and for the purposes as set forth below.",
+          "We may also use your personal data to support the functionality and personalize the layout and content of the Website to match your needs, interests and preferences, for security and fraud prevention purposes, to better understand our guests, to improve our programs, services and Website, and to better market our programs and services."
+        ]
+      },
+      {
+        title: "USE OF THE WEBSITE",
+        desc: [
+          "When you use the Website, we may collect information regarding the pages you visited, the date and time of your visit, your web browser and your IP address (collectively, the 'Page Statistics').",
+          "In general, we use the Page Statistics only to compile anonymous statistics regarding our visitors, in particular every visitor's home country.",
+          "In case of technical difficulties, upon your request, we may investigate the Page Statistics to offer you support in using the website's facilities.",
+          "Without your request for technical assistance, we will never investigate personalized Page Statistics.",
+          "The Website uses session cookies, which are deleted after you close your browser, and only store a minimal amount of personal data for a limited time."
+        ]
+      },
+      {
+        title: "CONTACTING US",
+        desc: [
+          "When you contact us (via mail, e-mail, telephone, fax or Website) or make a reservation, we may collect your contact details to assist and communicate with you.",
+          "We may use your contact information to send newsletters and inform you of products and services.",
+          "If you no longer wish to receive our newsletter or marketing, you may notify us at info@whiteridgehotel.com.",
+          "We will only send marketing emails if you have explicitly opted in."
+        ]
+      },
+      {
+        title: "RESERVATIONS AND PAYMENTS",
+        desc: [
+          "All reservations are processed by our booking partner.",
+          "Personal data you provide during booking is processed by the partner.",
+          "Upon successful booking, our partner provides us with booking data to deliver hotel and management services during your stay."
+        ]
+      },
+      {
+        title: "SECURITY",
+        desc: [
+          "Our Website and databases are protected against theft, unauthorized access, and data loss.",
+          "Data is stored on a professionally maintained, externally hosted server with regular backups and updates.",
+          "While we take reasonable security measures, no website can be 100% protected from targeted hacking attacks."
+        ]
+      },
+      {
+        title: "TRANSFER OF PERSONAL DATA",
+        desc: [
+          "We may occasionally share your personal data with affiliated companies, bonus programs, or travel organizations.",
+          "Your personal data will not be shared with any other parties."
+        ]
+      },
+      {
+        title: "STORAGE TERM",
+        desc: [
+          "We only store personal data as long as it is necessary or useful for us or for you.",
+          "Website statistical information is periodically released.",
+          "Contact information is stored until you request its deletion."
+        ]
+      },
+      {
+        title: "ACCESS AND MODIFICATION OF YOUR PERSONAL DATA",
+        desc: [
+          "You may request access to or changes to your personal data at any time.",
+          "Contact us at info@whiteridgehotel.com for any such requests.",
+          "For data handled by our Booking Partner or Payment Gateway, you should contact them directly."
+        ]
+      },
+      {
+        title: "CHANGES",
+        desc: [
+          "We reserve the right to update our Privacy Policy at any time.",
+          "Changes will be posted on the Website and are effective immediately.",
+          "Your continued use of the Website means you accept those changes."
+        ]
+      }
+    ]  
+  }
 };
