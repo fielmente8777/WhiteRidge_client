@@ -75,7 +75,7 @@ const Footer = () => {
                   className="text-white font-semibold uppercase heading4"
                 >
                   Exclusive benefits,
-                  <br /> insider news and more !
+                  <br /> OFFERS and more !
                 </Heading>
                 <form
                   className="w-full mt-4 flex max-sm:flex-col items-center justify-center gap-4 "

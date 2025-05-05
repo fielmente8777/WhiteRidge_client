@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
     >
       <Container>
         <nav
-          className={`flex items-center uppercase  w-full ${navbar || pathname !== "/" ? "justify-between" : "justify-center gap-7"}`}
+          className={`flex items-center uppercase  w-full ${navbar || pathname !== "/" ? "justify-between" : "md:justify-center justify-between gap-7"}`}
         >
           <div className="lg:hidden block">
             <button
@@ -141,7 +141,7 @@ const Navbar: React.FC = () => {
               />
             </span>
             <span
-              className={`relative block lg:hidden h-9 lg:aspect-[4/2] aspect-[4/1.2] transition-all duration-300 ease-in-out ${
+              className={`relative block lg:hidden h-14 aspect-[4/1.2] transition-all duration-300 ease-in-out ${
                 navbar ? "opacity-100" : "lg:opacity-0"
               }`}
             >
@@ -187,9 +187,9 @@ const Navbar: React.FC = () => {
               )}
             </li>
           </ul>
-          <div className="lg:flex hidden items-center gap-8">
+          <div className="flex  items-center gap-8">
             <div
-              className={` items-center gap-2 ${navbar || pathname !== "/" ? "flex" : " hidden"}`}
+              className={` items-center gap-2 ${navbar || pathname !== "/" ? "lg:flex hidden" : " hidden"}`}
             >
               {currentTime && (
                 <span
@@ -207,7 +207,7 @@ const Navbar: React.FC = () => {
                 navbar || pathname !== "/"
                   ? " border-primary hover:bg-white hover:text-primary bg-primary text-white "
                   : "bg-transparent border-white  "
-              } border max-md:text-[0.78rem] transition-all duration-75 ease-in-out`}
+              } border max-md:text-[0.6rem] transition-all duration-75 ease-in-out`}
               newTabe={true}
             />
           </div>
