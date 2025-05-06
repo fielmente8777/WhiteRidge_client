@@ -213,6 +213,15 @@ export const homePageData = {
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl20.webp",
         ],
       },
+      {
+        title: "Cricket Stadium, Dharamshala",
+        description:
+          "The scenic Dharamshala Cricket Stadium, known for its breathtaking Himalayan backdrop, is a must-visit attraction located nearby. It offers a unique blend of sports and natural beauty, making it a favorite spot for cricket fans and tourists alike.",
+        images: [
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl21.webp",
+          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl22.webp",
+        ],
+      },
     ],
   },
   connectivity: {
@@ -328,8 +337,12 @@ export const roomsPageData = {
         "Wake up to breathtaking panoramic views of the lush valleys, offering the perfect blend of comfort and peace in our spacious Deluxe Premium Valley View Room.",
       price: "₹4500/Day",
       images: [
+        // {
+        //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8273+copy.webp",
+        //   alt: "dsdsd",
+        // },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8273+copy.webp",
+          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/S45A9072+copy.webp",
           alt: "dsdsd",
         },
         {

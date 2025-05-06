@@ -86,13 +86,13 @@ export const footerLinks: IFooter[] = [
       {
         id: 1,
         name: "Instagram",
-        href: "https://www.instagram.com/ora_lakeview?igsh=MTNvdWZjNjVja2dsNQ==",
+        href: "https://www.instagram.com/whiteridgehotel.dharamshala",
         target: "_blank",
       },
       {
         id: 2,
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=61574775855831",
+        href: "https://www.facebook.com/whiteridgehotel",
         target: "_blank",
       },
       // { id: 3, name: "Twitter", href: "/", target: "_blank" },

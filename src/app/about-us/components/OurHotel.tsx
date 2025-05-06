@@ -27,7 +27,7 @@ const OurHotel = ({
             {item}
           </Paragraph>
         ))}
-        <div className="relative md:aspect-[4/1.5] rounded-sm overflow-hidden aspect-square  w-full">
+        <div className="relative md:aspect-[4/2] rounded-sm overflow-hidden aspect-square  w-full">
           <Image src={src} alt={title} fill className="object-cover" />
         </div>
       </div>
