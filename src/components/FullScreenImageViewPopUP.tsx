@@ -113,7 +113,7 @@ const FullScreenImageViewPopUP: React.FC<FullScreenImageViewPopUPProps> = ({
             alt="Full screen view"
             fill
             priority={true}
-            className="object-resize max-lg:object-contain cursor-pointer"
+            className="md:object-cover object-contain cursor-pointer"
             onClick={toggleFullscreen}
           />
           <div className="absolute bottom-0 left-0">

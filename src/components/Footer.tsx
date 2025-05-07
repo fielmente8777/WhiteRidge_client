@@ -61,7 +61,7 @@ const Footer = () => {
     <footer className="bg-bgClr max-w-[1600px] max-sm:pb-16 mx-auto w-full">
       <div className="w-full grid lg:grid-cols-6 md:grid-cols-2 grid-cols-1 items-center gap-8">
         <div className="lg:col-span-4 col-span-1 w-full">
-          <div className="w-full relative lg:aspect-[4/2.8] aspect-[4/5]">
+          <div className="w-full relative lg:aspect-[4/2.9] aspect-[4/5]">
             <Image
               src="https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im16.webp"
               alt="alt"
@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="lg:col-span-2 max-width col-span-full flex flex-col h-full justify-center gap-6 lg:px-6 w-full uppercase">
+        <div className="lg:col-span-2 max-width col-span-full flex flex-col h-full justify-center gap-6 lg:px-6 w-full uppercase pt-4">
           <div className="relative aspect-[4/2.5] h-[7.5rem]">
             <Image
               src="/logo.png"

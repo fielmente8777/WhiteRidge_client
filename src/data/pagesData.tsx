@@ -60,7 +60,7 @@ export const homePageData = {
         title: "Free Parking",
         description:
           "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/Facade/WhatsApp+Image+2025-03-26+at+20.56.16+(1).webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/parking/DSC_9029.webp",
         color: "#FAE3AF",
       },
       {
@@ -92,7 +92,7 @@ export const homePageData = {
         title: "Bar Area",
         description:
           "Sip on your favorite cocktails and unwind in our vibrant bar area, designed for relaxation.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8417+copy.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/DSC_6674+copy.webp",
         color: "#E0E7E9",
       },
       {
@@ -152,6 +152,13 @@ export const homePageData = {
         des: "Dal Lake",
         description:
           "Surrounded by lush greenery and stunning Himalayan peaks, Dal Lake is a serene and picturesque spot, offering a peaceful retreat with boat rides and a tranquil atmosphere perfect for relaxation.",
+      },
+      {
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl21.webp",
+        alt: "Cricket Stadium, Dharamshala",
+        des: "Cricket Stadium, Dharamshala",
+        description:
+          "The scenic Dharamshala Cricket Stadium, known for its breathtaking Himalayan backdrop, is a must-visit attraction located nearby. It offers a unique blend of sports and natural beauty, making it a favorite spot for cricket fans and tourists alike.",
       },
     ],
   },
@@ -213,15 +220,15 @@ export const homePageData = {
           "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl20.webp",
         ],
       },
-      {
-        title: "Cricket Stadium, Dharamshala",
-        description:
-          "The scenic Dharamshala Cricket Stadium, known for its breathtaking Himalayan backdrop, is a must-visit attraction located nearby. It offers a unique blend of sports and natural beauty, making it a favorite spot for cricket fans and tourists alike.",
-        images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl21.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl22.webp",
-        ],
-      },
+      // {
+      //   title: "Cricket Stadium, Dharamshala",
+      //   description:
+      //     "The scenic Dharamshala Cricket Stadium, known for its breathtaking Himalayan backdrop, is a must-visit attraction located nearby. It offers a unique blend of sports and natural beauty, making it a favorite spot for cricket fans and tourists alike.",
+      //   images: [
+      //     "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl21.webp",
+      //     "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl22.webp",
+      //   ],
+      // },
     ],
   },
   connectivity: {
@@ -237,7 +244,7 @@ export const homePageData = {
       },
       {
         icon: <TrainIcon />,
-        address: "train Station",
+        address: "Train Station",
         distance: "90 Kilometers",
       },
       {
