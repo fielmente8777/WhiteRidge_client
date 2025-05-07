@@ -1,7 +1,9 @@
 "use client";
 import { getDateInputLimits } from "@/data/getDateInputLimits";
+import { bookingUrl } from "@/data/links";
 import useClickOutside from "@/hooks/useClickOutside";
 import { CalendarIcon, DropDownIcon } from "@/icons/icons";
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
@@ -120,9 +122,9 @@ const CheckInOutForm = () => {
           </div>
         </div>
 
-        <button className="bg-primary uppercase text-white border my-4 max-md:py-3 max-md:mx-4 font-medium border-primary hover:text-primary hover:bg-white transition-colors ease-in-out duration-300 text-sm">
+        <Link href={bookingUrl} target="_blank" className="bg-primary flex items-center justify-center gap-2 uppercase text-white border my-4 max-md:py-3 max-md:mx-4 font-medium border-primary hover:text-primary hover:bg-white transition-colors ease-in-out duration-300 text-sm">
           Check Availability
-        </button>
+        </Link>
       </div>
     </div>
   );
