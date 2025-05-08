@@ -6,7 +6,7 @@ import {
   PhoneIcon,
   Location,
 } from "../icons/icons";
-import { contactImages, galleryImages } from "./links";
+import { contactImages, } from "./links";
 export const homePageData = {
   bannerData: {
     title: "Timeless • Serene • Tranquil",
@@ -55,14 +55,14 @@ export const homePageData = {
     title: "Amenities",
     description: "Thoughtful touches, endless delight",
     items: [
-      // {
-      //   icon: "/parking.png",
-      //   title: "Free Parking",
-      //   description:
-      //     "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
-      //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/parking/DSC_9029.webp",
-      //   color: "#FAE3AF",
-      // },
+      {
+        icon: "/parking.png",
+        title: "Free Parking",
+        description:
+          "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/parking/DSC_9029.webp",
+        color: "#FAE3AF",
+      },
       {
         icon: "/lawn.png",
         title: "Lavish Lawn",
@@ -71,14 +71,14 @@ export const homePageData = {
         src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/lawn/DSC_9047.webp",
         color: "#FAE3AF",
       },
-      {
-        icon: "/Wi-Fi.png",
-        title: "Free Wi-Fi",
-        description:
-          "Stay connected throughout your stay with our fast and reliable complimentary Wi-Fi service.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/medium.webp",
-        color: "#D8D6D7",
-      },
+      // {
+      //   icon: "/Wi-Fi.png",
+      //   title: "Free Wi-Fi",
+      //   description:
+      //     "Stay connected throughout your stay with our fast and reliable complimentary Wi-Fi service.",
+      //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Images-ORA-Lakeview-Finalised/medium.webp",
+      //   color: "#D8D6D7",
+      // },
       {
         icon: "/restaurant.png",
         title: "Multi-Cuisine Restaurant",
@@ -333,7 +333,7 @@ export const aboutPageData = {
       "Whether you're here for a peaceful getaway, a business trip, or to dive into the rich culture of this spiritual town, we’ve created a place where you can feel right at home.",
       "Our property is a blend of comfort, warmth, and adventure. We’ve designed it to be a peaceful sanctuary where you can relax, but also a place where you can step out and explore the wonders of Dharamshala",
     ],
-    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im3.webp",
+    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8175+copy.webp",
   },
 };
 
@@ -531,7 +531,7 @@ export const galleryPageData = {
     title: "A Glimpse of our Hotel",
     description:
       "Discover the beauty of White Ridge Hotel through our gallery, where every image captures the essence of comfort, nature, and unforgettable experiences.",
-    src: galleryImages + "/img1.webp",
+    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/DSC_9079.webp",
   },
   galleryData: [
     {
