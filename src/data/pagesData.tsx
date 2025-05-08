@@ -55,12 +55,20 @@ export const homePageData = {
     title: "Amenities",
     description: "Thoughtful touches, endless delight",
     items: [
+      // {
+      //   icon: "/parking.png",
+      //   title: "Free Parking",
+      //   description:
+      //     "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
+      //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/parking/DSC_9029.webp",
+      //   color: "#FAE3AF",
+      // },
       {
-        icon: "/parking.png",
-        title: "Free Parking",
+        icon: "/lawn.png",
+        title: "Lavish Lawn",
         description:
-          "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/parking/DSC_9029.webp",
+          "Experience serene luxury on our lavishly manicured lawn, the perfect setting for unforgettable moments.",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/lawn/DSC_9047.webp",
         color: "#FAE3AF",
       },
       {
@@ -126,7 +134,7 @@ export const homePageData = {
           "Nestled in the foothills of the majestic Himalayas, Kangra is a serene escape, offering picturesque landscapes, rich history, and a tranquil atmosphere that captures the heart of every traveler.",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im6.webp",
+        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/saradasish-unsplash.webp",
         alt: "Shri Dalai Lama Temple",
         des: "Shri Dalai Lama Temple",
         description:
