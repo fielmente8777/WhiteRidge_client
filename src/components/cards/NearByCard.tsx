@@ -27,7 +27,7 @@ const NearByCard: React.FC<{
           <p className="text-sm font-normal capitalize text-primary">
             {des}
           </p>
-          <p className="text-sm  font-normal capitalize text-primary">
+          <p className="text-sm  font-normal capitalize text-dark">
             {description}
           </p>
         </div>
