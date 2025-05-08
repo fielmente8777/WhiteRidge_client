@@ -267,6 +267,10 @@ export const homePageData = {
     description: "Appreciation From Our Guests!",
     items: [
       {
+        title: "Perfect Wedding Destination",
+        description: `"Dulha Baraati's" were staying here at "White Ridge" from 17th May'22 to 25th May'22 and it has been an absolute pleasure and delightful experience. Right from our stay, food, haldi event, mehandi event & baraati event - very well organized and handled extremely well! I can only say that - "One must stay" at "White Ridge". The hospitality, simplicity of the people/staff here is truly commendable. "Commitment" is what staff over here take it very seriously and guests will always be extremely happy.`,
+      },
+      {
         title: "Perfect stay",
         description: `Hotel with comfortable large rooms. Good views of the snow capped mountains. Attentive reception. Parking space. The only dent was the slow service in the dinning section. Rest all is good. I would recommend it for a couple of days in Dharamsala.`,
       },
