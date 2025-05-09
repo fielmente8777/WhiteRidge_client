@@ -35,7 +35,7 @@ const RenderChatBot = () => {
       const { data } = await axios.post(
         "https://nexon.eazotel.com/eazotel/addcontacts",
         {
-          Domain: "testgrm",
+          Domain: "whiteridgehotel",
           Contact: `${phone}`,
           email: `${email}`,
           Description: description,
