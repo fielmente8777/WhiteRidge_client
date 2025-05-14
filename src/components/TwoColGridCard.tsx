@@ -3,6 +3,7 @@ import Section from "./SectionComponents/Section";
 import Button from "./Button";
 import { Heading, Paragraph } from "./TextAndInputComponents";
 import { ThumbsCardsSlider } from "./cards";
+import { bookingUrl } from "@/data/links";
 
 interface TwoColGridCardProps {
   title: string;
@@ -59,7 +60,8 @@ const TwoColGridCard: React.FC<TwoColGridCardProps> = ({
             </Paragraph>
 
             <Button
-              href="https://direct-book.com/properties/lakeviewhotelrestaurant?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=CHF&checkInDate=2025-01-31&checkOutDate=2025-02-01&trackPage=yes"
+              href={bookingUrl}
+              newTabe
               label="CHECK AVAILABILITY"
               className="mt-2 w-fit bg-primary text-white hover:bg-primary/80"
             />
