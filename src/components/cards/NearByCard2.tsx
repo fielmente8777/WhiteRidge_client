@@ -6,7 +6,7 @@ const NearByCard2: React.FC<{
   alt: string;
   description: string;
   des: string;
-}> = ({ src, alt, description, des }) => {
+}> = ({ src, alt, description }) => {
   return (
     <div className="flex flex-col items-center justify-center gap-4 shadow-sm">
       <div className="relative aspect-[4/3] w-full">
@@ -21,9 +21,9 @@ const NearByCard2: React.FC<{
         </div>
       </div>
       <div className="flex flex-col gap-1 w-full bg-white py-4">
-        <Paragraph className="description1 capitalize !text-dark">
+        {/* <Paragraph className="description1 capitalize !text-dark">
           {des}
-        </Paragraph>
+        </Paragraph> */}
         <Paragraph className="description1 capitalize !text-dark">
           {description}
         </Paragraph>
