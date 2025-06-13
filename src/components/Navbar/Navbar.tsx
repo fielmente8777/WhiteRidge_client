@@ -201,7 +201,7 @@ const Navbar: React.FC = () => {
               )}
             </div>
             <Button
-              href={"tel:+ +9198160 91658"}
+              href={"tel:+919816091658"}
               // href={bookingUrl}
               label="Book Now"
               className={`${
