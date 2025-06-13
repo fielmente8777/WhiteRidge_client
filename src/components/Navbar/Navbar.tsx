@@ -9,7 +9,7 @@ import { useCallback, useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { MobileNavbar } from "./MobileNavbar";
 import Button from "../Button";
-import { bookingUrl } from "@/data/links";
+// import { bookingUrl } from "@/data/links";
 import axios from "axios";
 
 const Navbar: React.FC = () => {
@@ -201,7 +201,8 @@ const Navbar: React.FC = () => {
               )}
             </div>
             <Button
-              href={bookingUrl}
+              href={"tel:+ +9198160 91658"}
+              // href={bookingUrl}
               label="Book Now"
               className={`${
                 navbar || pathname !== "/"
