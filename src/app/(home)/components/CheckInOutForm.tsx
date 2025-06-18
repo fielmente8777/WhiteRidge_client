@@ -122,7 +122,7 @@ const CheckInOutForm = () => {
           </div>
         </div>
 
-        <Link href={bookingUrl} target="_blank" className="bg-primary flex items-center justify-center gap-2 uppercase text-white border my-4 max-md:py-3 max-md:mx-4 font-medium border-primary hover:text-primary hover:bg-white transition-colors ease-in-out duration-300 text-sm">
+        <Link href={"tel:+919816091658"} target="_blank" className="bg-primary flex items-center justify-center gap-2 uppercase text-white border my-4 max-md:py-3 max-md:mx-4 font-medium border-primary hover:text-primary hover:bg-white transition-colors ease-in-out duration-300 text-sm">
           Check Availability
         </Link>
       </div>
@@ -163,9 +163,8 @@ const NumberOfGuests: React.FC<NumberOfGuestsProps> = ({
 
   return (
     <div
-      className={`absolute top-full left-0 right-0 shadow-lg z-10 overflow-hidden transition-all duration-300 ease-in-out ${
-        isOpen ? "max-h-64 pointer-events-auto" : "max-h-0 pointer-events-none"
-      }`}
+      className={`absolute top-full left-0 right-0 shadow-lg z-10 overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-64 pointer-events-auto" : "max-h-0 pointer-events-none"
+        }`}
     >
       <div className="w-full flex flex-col gap-4 px-3 py-3 bg-white">
         {guestData.map((guest) => (

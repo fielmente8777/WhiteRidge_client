@@ -59,8 +59,14 @@ const TwoColGridCard: React.FC<TwoColGridCardProps> = ({
               Starting from {price}
             </Paragraph>
 
-            <Button
+            {/* <Button
               href={bookingUrl}
+              newTabe
+              label="CHECK AVAILABILITY"
+              className="mt-2 w-fit bg-primary text-white hover:bg-primary/80"
+            /> */}
+            <Button
+              href={"tel:+919816091658"}
               newTabe
               label="CHECK AVAILABILITY"
               className="mt-2 w-fit bg-primary text-white hover:bg-primary/80"
