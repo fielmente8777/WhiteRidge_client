@@ -1,6 +1,5 @@
 "use client";
 import { getDateInputLimits } from "@/data/getDateInputLimits";
-import { bookingUrl } from "@/data/links";
 import useClickOutside from "@/hooks/useClickOutside";
 import { CalendarIcon, DropDownIcon } from "@/icons/icons";
 import Link from "next/link";
