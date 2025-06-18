@@ -3,7 +3,6 @@ import Section from "./SectionComponents/Section";
 import Button from "./Button";
 import { Heading, Paragraph } from "./TextAndInputComponents";
 import { ThumbsCardsSlider } from "./cards";
-import { bookingUrl } from "@/data/links";
 
 interface TwoColGridCardProps {
   title: string;
