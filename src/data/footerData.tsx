@@ -32,8 +32,8 @@ export const footerLinks: IFooter[] = [
             href: "mailto:info@whiteridgehotel.com",
           },
           {
-            name: "reservations@whiteridgehotel.com",
-            href: "mailto:reservations@whiteridgehotel.com",
+            name: "marketing@whiteridgehotel.com",
+            href: "mailto:marketing@whiteridgehotel.com",
           },
         ],
       },

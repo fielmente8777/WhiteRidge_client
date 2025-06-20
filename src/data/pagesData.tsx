@@ -629,8 +629,8 @@ export const contactPageData = {
             href: "mailto:info@whiteridgehotel.com",
           },
           {
-            label: "reservations@whiteridgehotel.com",
-            href: "mailto:reservations@whiteridgehotel.com",
+            label: "marketing@whiteridgehotel.com",
+            href: "mailto:marketing@whiteridgehotel.com",
           },
         ],
       },
