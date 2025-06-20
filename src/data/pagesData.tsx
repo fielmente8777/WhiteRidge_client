@@ -304,7 +304,7 @@ export const homePageData = {
       {
         id: 2,
         title: "What is the check-in and check-out time?",
-        content: `CHECK IN TIME : 11 AM & CHECK OUT TIME : 1 PM .`,
+        content: `CHECK IN TIME : 1 PM & CHECK OUT TIME : 11 AM .`,
       },
       {
         id: 3,
@@ -857,14 +857,14 @@ export const policyPagesData = {
       },
     ],
   },
-  policyData:{
-      description: [
-        'White Ridge Hotel ("we", "us", "our") provides the information set out on the www.whiteridgehotel.com website (the "Website") solely for information purposes.',
-        "Your use of the Website is governed by this Privacy Policy and our Disclaimer. Any room reservation you make with us shall additionally be subject to our Terms and Conditions, as well as the terms of our room booking operator.",
-        "By using any part of the Website and/or submitting any information to us through the Website, you agree to the terms set forth in our Disclaimer and this Privacy Policy, and you agree that any of your personal data obtained through the Website may be processed in accordance with our Privacy Policy.",
-        "If you have any questions regarding these documents, please contact us via info@whiteridgehotel.com."
-      ],
-  data: [
+  policyData: {
+    description: [
+      'White Ridge Hotel ("we", "us", "our") provides the information set out on the www.whiteridgehotel.com website (the "Website") solely for information purposes.',
+      "Your use of the Website is governed by this Privacy Policy and our Disclaimer. Any room reservation you make with us shall additionally be subject to our Terms and Conditions, as well as the terms of our room booking operator.",
+      "By using any part of the Website and/or submitting any information to us through the Website, you agree to the terms set forth in our Disclaimer and this Privacy Policy, and you agree that any of your personal data obtained through the Website may be processed in accordance with our Privacy Policy.",
+      "If you have any questions regarding these documents, please contact us via info@whiteridgehotel.com."
+    ],
+    data: [
       {
         title: "GENERAL",
         desc: [
@@ -944,6 +944,6 @@ export const policyPagesData = {
           "Your continued use of the Website means you accept those changes."
         ]
       }
-    ]  
+    ]
   }
 };
