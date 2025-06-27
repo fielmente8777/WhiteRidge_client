@@ -56,6 +56,7 @@ const RenderChatBot = () => {
           },
         }
       );
+      window.open("/thank-you", "_blank");
       console.log(data);
     } catch (error) {
       console.log(error);
