@@ -1,9 +1,8 @@
+import { Call, Footer, GreetingCard, Navbar, Whatsapp } from "@/components";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.scss";
-import { Call, Footer, GreetingCard, Navbar, Whatsapp } from "@/components";
-import RenderChatBot from "@/components/chatbot/RenderChatBot";
 import Script from "next/script";
+import "./globals.scss";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
