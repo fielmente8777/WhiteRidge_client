@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
   // Weather state
   const [temp, setTemp] = useState<number | null>(null);
 
-  // Memoized function to fetch weather
+  // Memoized function to fetch weather 32.102475746979756, 77.15590025397233
   const getTemp = useCallback(async () => {
     try {
       const apiKey = "8611baa95180437492f54121230505";
@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
       const timeout = setTimeout(() => controller.abort(), 5000); // Set a timeout for the request
 
       const response = await axios.get(
-        `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=32.19369958610509,76.34778399999999`,
+        `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=32.102475746979756, 77.15590025397233 &days=1&aqi=no&alerts=no`,
         { signal: controller.signal }
       );
 
