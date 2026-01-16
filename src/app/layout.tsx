@@ -1,9 +1,8 @@
+import { Call, Footer, GreetingCard, Navbar, Whatsapp } from "@/components";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.scss";
-import { Call, Footer, GreetingCard, Navbar, Whatsapp } from "@/components";
-import RenderChatBot from "@/components/chatbot/RenderChatBot";
 import Script from "next/script";
+import "./globals.scss";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +41,18 @@ export default function RootLayout({
               `,
           }}
         />
+
+        <Script id="eazbot-script" strategy="afterInteractive">
+          {`window.eazbotConfig = {
+             ndid: "3a0d6638-e89a-4882-a2a7-f6b1c923e4b8",
+             hid: "51602989",
+          };`}
+        </Script>
+        <Script
+          id="eazbot-widget-script"
+          strategy="afterInteractive"
+          src="https://cb-script.dyq28lyxrazm2.amplifyapp.com/widget/lead-chatbot.js"
+        ></Script>
         {/* <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -63,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           ></iframe>
         </noscript>
         {/* <!-- End Google Tag Manager (noscript) --> */}
-        <RenderChatBot />
+        {/* <RenderChatBot /> */}
         <Navbar />
         {children}
         <GreetingCard />
