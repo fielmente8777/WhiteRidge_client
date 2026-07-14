@@ -1,11 +1,11 @@
-import { SectionWithContainer, Heading, Paragraph } from "@/components";
-import Image from "next/image";
+import { Heading, Paragraph, SectionWithContainer } from "@/components";
+import { WhiteMountIcon } from "@/icons/icons";
 interface BannerProps {
   title: string;
   description: string;
-  src: string;
+  // src: string;
 }
-const Banner: React.FC<BannerProps> = ({ title, description, src }) => {
+const Banner: React.FC<BannerProps> = ({ title, description }) => {
   return (
     <SectionWithContainer sectionClassName="bg-bgClr lg:py-20" >
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
@@ -20,9 +20,11 @@ const Banner: React.FC<BannerProps> = ({ title, description, src }) => {
             {description}
           </Paragraph>
         </div>
-        <div className="relative lg:aspect-[4/2] aspect-square w-full">
+         <WhiteMountIcon/>
+        {/* <div className="relative lg:aspect-[4/2] aspect-square w-full">
           <Image src={src} alt={title} className="object-contain" fill />
-        </div>
+        </div> */}
+        <WhiteMountIcon/>
       </div>
     </SectionWithContainer>
   );

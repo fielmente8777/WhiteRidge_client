@@ -2,6 +2,7 @@ import { SectionWithContainer } from "@/components";
 import { Paragraph } from "@/components/TextAndInputComponents";
 import Image from "next/image";
 import CheckInOutForm from "./CheckInOutForm";
+import { MountainIcon, MountainsIcon } from "@/icons/icons";
 
 const WhoWeAre = () => {
   const description = [
@@ -28,7 +29,7 @@ const WhoWeAre = () => {
         <div className="w-full lg:grid grid-cols-3 flex items-center justify-center gap-4">
           <div className="w-full h-[1px] bg-[#D9D9D9]" />
           <div className="flex items-center justify-center w-[20rem]  lg:w-full">
-            <div className="relative md:aspect-[4/1.5] aspect-[4/4] my-auto w-full">
+            {/* <div className="relative md:aspect-[4/1.5] aspect-[4/4] my-auto w-full">
               <Image
                 src={
                   "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Asset1.webp"
@@ -37,7 +38,8 @@ const WhoWeAre = () => {
                 fill
                 className="object-contain"
               />
-            </div>
+            </div> */}
+            <MountainsIcon/>
           </div>
           <div className="w-full h-[1px] bg-[#D9D9D9]" />
         </div>

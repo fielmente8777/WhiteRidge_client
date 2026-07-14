@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="lg:col-span-4 col-span-1 w-full">
           <div className="w-full relative lg:aspect-[4/2.9] aspect-[4/5]">
             <Image
-              src="https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im16.webp"
+              src="/images/footer.jpg"
               alt="alt"
               fill
               className="object-cover object-right-bottom scale-x-[-1]"

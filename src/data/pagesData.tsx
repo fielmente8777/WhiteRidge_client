@@ -6,24 +6,22 @@ import {
   PhoneIcon,
   Location,
 } from "../icons/icons";
-import { contactImages, } from "./links";
+import { contactImages } from "./links";
 export const homePageData = {
   bannerData: {
     title: "Timeless • Serene • Tranquil",
     description:
       "Where Comfort Meets Culture, and Every Stay is a Memorable Experience.",
-    images: [
-      "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/bnr1.webp",
-    ],
+    images: ["/images/bn.jpg"],
   },
   galleryData: {
     title: "Gallery",
     description: "Immerse in our breathtaking surroundings",
     images: [
-      "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/pool2.webp",
-      "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8170+copy.webp",
-      "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8414+copy.webp",
-      "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/pool3.webp",
+      "/images/gallery1.jpg",
+      "/images/gallery2.jpg",
+      "/images/gallery3.jpg",
+      "/images/gallery4.jpg",
     ],
   },
 
@@ -34,19 +32,19 @@ export const homePageData = {
       "Our rooms are designed for comfort and relaxation, offering a variety of categories to suit your needs. With options ranging from cozy single rooms to spacious suites, we ensure a restful stay. Each room is thoughtfully designed with modern amenities and breathtaking views of Dharamshala’s scenic beauty, making it a perfect retreat for all guests.",
     images: [
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8273+copy.webp",
+        src: "/images/valley.jpg",
         alt: "Deluxe Premium Valley View Room",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8240+copy.webp",
+        src: "/images/mount.jpg",
         alt: "Deluxe Premium Mount View Room",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8307+copy.webp",
+        src: "/images/suite.jpg",
         alt: "Executive Suite Room",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/STD+Room/IMG_8337+copy.webp",
+        src: "/images/standard.jpg",
         alt: "Standard Room",
       },
     ],
@@ -60,7 +58,7 @@ export const homePageData = {
         title: "Free Parking",
         description:
           "Enjoy hassle-free parking with ample space, so you can focus on your time with us.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/parking/DSC_9029.webp",
+        src: "/images/amenities/1.jpg",
         color: "#FAE3AF",
       },
       {
@@ -68,7 +66,7 @@ export const homePageData = {
         title: "Lavish Lawn",
         description:
           "Experience serene luxury on our lavishly manicured lawn, the perfect setting for unforgettable moments.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/lawn/DSC_9047.webp",
+        src: "/images/amenities/2.jpg",
         color: "#FAE3AF",
       },
       // {
@@ -84,7 +82,7 @@ export const homePageData = {
         title: "Multi-Cuisine Restaurant",
         description:
           "Indulge in a diverse menu offering delicious dishes from around the world in our restaurant.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/IMG_8411+copy.webp",
+        src: "/images/amenities/3.jpg",
         color: "#E7CBCE",
       },
       {
@@ -92,7 +90,7 @@ export const homePageData = {
         title: "Mini Swimming Pool",
         description:
           " Take a refreshing dip in our mini swimming pool, perfect for a relaxing break.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/pool2.webp",
+        src: "/images/gallery1.jpg",
         color: "#CE905F",
       },
       {
@@ -100,7 +98,7 @@ export const homePageData = {
         title: "Bar Area",
         description:
           "Sip on your favorite cocktails and unwind in our vibrant bar area, designed for relaxation.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/DSC_6674+copy.webp",
+        src: "/images/amenities/4.jpg",
         color: "#E0E7E9",
       },
       {
@@ -108,7 +106,7 @@ export const homePageData = {
         title: "Multipurpose Hall",
         description:
           "Host your events with ease in our versatile multipurpose hall, perfect for any occasion.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/DSC_6528+copy.webp",
+        src: "/images/amenities/5.jpg",
         color: "#E7CBCE",
       },
       {
@@ -116,7 +114,7 @@ export const homePageData = {
         title: "Rooftop Lounge",
         description:
           "Experience breathtaking views and cool breezes while enjoying your favorite drinks at our rooftop lounge.",
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8175+copy.webp",
+        src: "/images/amenities/6.jpg",
         color: "#B9BDA7",
       },
     ],
@@ -127,35 +125,35 @@ export const homePageData = {
 
     images: [
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im5.webp",
+        src: "/images/nearby/1.jpg",
         alt: "Kangra Valley",
         des: "Kangra Valley",
         description:
           "Nestled in the foothills of the majestic Himalayas, Kangra is a serene escape, offering picturesque landscapes, rich history, and a tranquil atmosphere that captures the heart of every traveler.",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/saradasish-unsplash.webp",
+        src: "/images/nearby/2.jpg",
         alt: "Shri Dalai Lama Temple",
         des: "Shri Dalai Lama Temple",
         description:
           "A peaceful haven for reflection and spirituality, the Shri Dalai Lama Temple offers visitors a glimpse into Tibetan culture and Buddhism, with stunning views of Dharamshala’s natural beauty.",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im8.webp",
+        src: "/images/nearby/3.jpg",
         alt: "Triund Hill",
         des: "Triund Hill",
         description:
           "Known for its breathtaking vistas, Triund Hill is a paradise for trekkers and nature lovers, offering panoramic views of the Dhauladhar range and a serene atmosphere that calms the soul.",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im9.webp",
+        src: "/images/nearby/4.jpg",
         alt: "Norbulingka Temple",
         des: "Norbulingka Temple",
         description:
           "A gem of Tibetan architecture, the Norbulingka Temple is a peaceful sanctuary where vibrant gardens, intricate art, and spiritual tranquility create a serene escape for those seeking reflection.",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im10.webp",
+        src: "/images/nearby/5.jpg",
         alt: "Dal Lake",
         des: "Dal Lake",
         description:
@@ -179,10 +177,10 @@ export const homePageData = {
         description:
           "Conquer the rugged terrains surrounding Dharamshala with our expert-led rock climbing adventures. A thrilling experience that offers both a physical challenge and stunning panoramic views of the mountains.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl1.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl2.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl3.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl4.webp",
+          "/images/activities/trekking.jpg",
+          "/images/activities/trekking2.jpg",
+          "/images/activities/trekking3.jpg",
+          "/images/activities/trekking4.jpg",
         ],
       },
       {
@@ -190,10 +188,10 @@ export const homePageData = {
         description:
           "Soar above the lush valleys of Dharamshala for an exhilarating paragliding experience. Whether you're a first-timer or an experienced flier, this adventure offers a unique bird's-eye view of the majestic Himalayas.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl5.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl6.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl7.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl8.webp",
+          "/images/activities/para.jpg",
+          "/images/activities/para2.jpg",
+          "/images/activities/para3.jpg",
+          "/images/activities/para4.jpg",
         ],
       },
       {
@@ -201,10 +199,10 @@ export const homePageData = {
         description:
           "Reconnect with nature in the serene environment of Dharamshala with our curated camping experiences. Enjoy cozy tents, a warm campfire, and the peaceful sounds of the wilderness under a starlit sky.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl9.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl10.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl11.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl12.webp",
+          "/images/activities/camping.jpg",
+          "/images/activities/camping2.jpg",
+          "/images/activities/camping3.jpg",
+          "/images/activities/camping4.jpg",
         ],
       },
       {
@@ -212,9 +210,9 @@ export const homePageData = {
         description:
           "Push your limits with an exciting river crossing adventure. Perfect for thrill-seekers, this activity offers an adrenaline rush while enjoying the natural beauty of the surroundings.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl16.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl14.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl15.webp",
+          "/images/activities/river.jpg",
+          "/images/activities/river2.jpg",
+          "/images/activities/river3.jpg",
         ],
       },
       {
@@ -222,10 +220,10 @@ export const homePageData = {
         description:
           "Embark on a peaceful nature walk and explore the rich biodiversity of Dharamshala's forests. A guided nature walk gives you the chance to connect with the landscape while spotting local wildlife and flora.",
         images: [
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl17.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl18.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl19.webp",
-          "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl20.webp",
+          "/images/activities/walk.jpg",
+          "/images/activities/walk2.jpg",
+          "/images/activities/walk3.jpg",
+          "/images/activities/walk4.jpg",
         ],
       },
       // {
@@ -325,7 +323,7 @@ export const aboutPageData = {
     title: "Experience Unmatched Serenity",
     description:
       "Nestled in the tranquil hills of Dharamshala, White Ridge offers a perfect blend of relaxation and adventure.",
-    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im19.webp",
+    src: "/images/about/bn.jpg",
     videoSrc:
       "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im19.webp",
   },
@@ -337,7 +335,7 @@ export const aboutPageData = {
       "Whether you're here for a peaceful getaway, a business trip, or to dive into the rich culture of this spiritual town, we’ve created a place where you can feel right at home.",
       "Our property is a blend of comfort, warmth, and adventure. We’ve designed it to be a peaceful sanctuary where you can relax, but also a place where you can step out and explore the wonders of Dharamshala",
     ],
-    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8175+copy.webp",
+    src: "/images/about/image1.jpg",
   },
 };
 
@@ -347,7 +345,7 @@ export const roomsPageData = {
     title: "Stay in the Heart of Dharamshala",
     description:
       "We're proud of the relationships we've built over the years and the trust our guests have in us. Whether you’re here for a family vacation, a business conference, or just passing through, we’re excited to welcome you to experience the magic of this place. It’s not just a stay; it’s a memory in the making.",
-    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im18.webp",
+    // src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im18.webp",
   },
   roomcard: [
     {
@@ -361,23 +359,23 @@ export const roomsPageData = {
         //   alt: "dsdsd",
         // },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/S45A9072+copy.webp",
+          src: "/images/rooms/valley.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8260+copy.webp",
+          src: "/images/rooms/valley2.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8368+copy.webp",
+          src: "/images/rooms/valley3.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8262+copy.webp",
+          src: "/images/rooms/valley4.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8279+copy.webp",
+          src: "/images/rooms/valley5.jpg",
           alt: "dsdsd",
         },
         // {
@@ -386,7 +384,7 @@ export const roomsPageData = {
         // },
 
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Valley+View/IMG_8292+copy.webp",
+          src: "/images/rooms/valley6.jpg",
           alt: "dsdsd",
         },
       ],
@@ -409,19 +407,19 @@ export const roomsPageData = {
       price: "₹4900/Day",
       images: [
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8240+copy.webp",
+          src: "/images/rooms/mount.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8244+copy.webp",
+          src: "/images/rooms/mount2.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8249+copy.webp",
+          src: "/images/rooms/mount3.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Mount+View/IMG_8253+copy.webp",
+          src: "/images/rooms/mount4.jpg",
           alt: "dsdsd",
         },
       ],
@@ -444,7 +442,7 @@ export const roomsPageData = {
       price: "₹7300/Day",
       images: [
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8326+copy.webp",
+          src: "/images/rooms/suite.jpg",
           alt: "dsdsd",
         },
         // {
@@ -452,27 +450,15 @@ export const roomsPageData = {
         //   alt: "dsdsd",
         // },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8307+copy.webp",
+          src: "/images/rooms/suite2.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8305+copy.webp",
+          src: "/images/rooms/suite3.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8299+copy.webp",
-          alt: "dsdsd",
-        },
-        // {
-        //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8315+copy.webp",
-        //   alt: "dsdsd",
-        // },
-        {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8329+copy.webp",
-          alt: "dsdsd",
-        },
-        {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8332+copy.webp",
+          src: "/images/rooms/suite4.jpg",
           alt: "dsdsd",
         },
         // {
@@ -480,7 +466,19 @@ export const roomsPageData = {
         //   alt: "dsdsd",
         // },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8321+copy.webp",
+          src: "/images/rooms/suite5.jpg",
+          alt: "dsdsd",
+        },
+        {
+          src: "/images/rooms/suite6.jpg",
+          alt: "dsdsd",
+        },
+        // {
+        //   src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Executive+Suit/IMG_8315+copy.webp",
+        //   alt: "dsdsd",
+        // },
+        {
+          src: "/images/rooms/suite7.jpg",
           alt: "dsdsd",
         },
       ],
@@ -503,15 +501,15 @@ export const roomsPageData = {
       price: "₹3500/Day",
       images: [
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/STD+Room/IMG_8338+copy.webp",
+          src: "/images/rooms/standard.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/STD+Room/IMG_8337+copy.webp",
+          src: "/images/rooms/standard2.jpg",
           alt: "dsdsd",
         },
         {
-          src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/STD+Room/IMG_8342+copy.webp",
+          src: "/images/rooms/standard3.jpg",
           alt: "dsdsd",
         },
       ],
@@ -535,39 +533,39 @@ export const galleryPageData = {
     title: "A Glimpse of our Hotel",
     description:
       "Discover the beauty of White Ridge Hotel through our gallery, where every image captures the essence of comfort, nature, and unforgettable experiences.",
-    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/DSC_9079.webp",
+    // src: "/images/gallery.jpg",
   },
   galleryData: [
     {
       title: "Terrace",
       images: [
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8168+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8172+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Terrace/IMG_8175+copy.webp",
+        "/images/terrace.jpg",
+        "/images/terrace2.jpg",
+        "/images/terrace3.jpg",
       ],
     },
     {
       title: "Reception",
       images: [
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Reception+Lobby/IMG_8398+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Reception+Lobby/IMG_8402+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Reception+Lobby/IMG_8404+copy.webp",
+        "/images/reception.jpg",
+        "/images/reception2.jpg",
+        "/images/reception3.jpg",
       ],
     },
     {
       title: "Restaurant",
       images: [
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/IMG_8408+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/IMG_8411+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Resturant/DSC_6511+copy.webp",
+        "/images/resturant.jpg",
+        "/images/resturant2.jpg",
+        "/images/resturant3.jpg",
       ],
     },
     {
       title: "Bar Lounge",
       images: [
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8414+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/IMG_8417+copy.webp",
-        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/Bar/DSC_6653+copy.webp"
+        "/images/bar.jpg",
+        "/images/bar2.jpg",
+        "/images/bar3.jpg",
       ],
     },
   ],
@@ -754,33 +752,33 @@ export const policyPagesData = {
       {
         title: "RIGHT OF REFUSAL",
         desc: [
-          "The Hotel reserves the right to refuse a Client, Guest or representative entry and accommodation if, on arrival, management reasonably considers that the guest is under the influence of alcohol or drugs, and is unsuitably dressed or is behaving in a threatening, abusive or otherwise unacceptable manner."
-        ]
+          "The Hotel reserves the right to refuse a Client, Guest or representative entry and accommodation if, on arrival, management reasonably considers that the guest is under the influence of alcohol or drugs, and is unsuitably dressed or is behaving in a threatening, abusive or otherwise unacceptable manner.",
+        ],
       },
       {
         title: "DISCRIMINATION",
         desc: [
           "It is the policy of the Hotel not to discriminate on the grounds of race, colour, nationality, religion, sex, marital status, age, ethnic origin or disability.",
-          "Clients, their employees, guests and all sub-contractors engaged by or on behalf of the Client are expected to adhere to this policy and the Hotel may, without incurring any liability to the Client, remove from the Hotel any person or persons offending against this policy."
-        ]
+          "Clients, their employees, guests and all sub-contractors engaged by or on behalf of the Client are expected to adhere to this policy and the Hotel may, without incurring any liability to the Client, remove from the Hotel any person or persons offending against this policy.",
+        ],
       },
       {
         title: "EXTERNAL PURCHASES",
         desc: [
-          "No wines, spirits, beers or food may be brought into the Hotel or Hotel grounds by Clients, their guests or representatives for consumption or sale on the premises without the express written consent of the Hotel and for which a charge may be made by the Hotel."
-        ]
+          "No wines, spirits, beers or food may be brought into the Hotel or Hotel grounds by Clients, their guests or representatives for consumption or sale on the premises without the express written consent of the Hotel and for which a charge may be made by the Hotel.",
+        ],
       },
       {
         title: "COMMENTS AND COMPLAINTS",
         desc: [
-          "Any comments or complaint regarding the Hotel should be made to the General Manager at the time of visit so that the matter can be resolved immediately. Alternatively, write within 7 days to the Hotel's General Manager."
-        ]
+          "Any comments or complaint regarding the Hotel should be made to the General Manager at the time of visit so that the matter can be resolved immediately. Alternatively, write within 7 days to the Hotel's General Manager.",
+        ],
       },
       {
         title: "STATUTORY REQUIREMENTS",
         desc: [
-          "The Hotel is subject to statutory controls, including those relating to fire, licensing, entertainment, health, hygiene and safety. These must be strictly observed by Clients, their guests and representatives."
-        ]
+          "The Hotel is subject to statutory controls, including those relating to fire, licensing, entertainment, health, hygiene and safety. These must be strictly observed by Clients, their guests and representatives.",
+        ],
       },
       {
         title: "LIABILITY",
@@ -792,15 +790,15 @@ export const policyPagesData = {
           "The Client is responsible for any damage caused to the allocated rooms, its furnishings, utensils, fixtures and fittings and equipment in such rooms by any act, omission, default or neglect of the Client, its guests, employees, representatives, invitees or contractors and shall pay to the Hotel on demand the amount required to make good or remedy any such damage.",
           "Clients should ensure that valuables are covered by the Client's own insurance policy.",
           "Clients must report any loss of or damage to their property immediately on discovery to the Hotel's Management, and shall make themselves available to assist with any reports made by the Hotel to the police.",
-          "Clients shall not enter areas of the Hotel which are indicated as being closed to the public. The Hotel shall not be responsible for death, personal injury or loss or damage to property suffered by a Client and their Guests in such areas."
-        ]
+          "Clients shall not enter areas of the Hotel which are indicated as being closed to the public. The Hotel shall not be responsible for death, personal injury or loss or damage to property suffered by a Client and their Guests in such areas.",
+        ],
       },
       {
         title: "THIRD PARTY LIABILITY",
         desc: [
           "Neither the Hotel, the Company accept any liability for services rendered by third parties to Clients notwithstanding that such services may be arranged by the Hotel or the Company.",
-          "Any claim, demand, charge, suit or damages which may be incurred by the Client or their Guests (or any person claiming thereunder) shall be made directly with such third parties and the Hotel shall render all reasonable assistance in this regard."
-        ]
+          "Any claim, demand, charge, suit or damages which may be incurred by the Client or their Guests (or any person claiming thereunder) shall be made directly with such third parties and the Hotel shall render all reasonable assistance in this regard.",
+        ],
       },
       {
         title: "INSURANCE",
@@ -862,21 +860,21 @@ export const policyPagesData = {
       'White Ridge Hotel ("we", "us", "our") provides the information set out on the www.whiteridgehotel.com website (the "Website") solely for information purposes.',
       "Your use of the Website is governed by this Privacy Policy and our Disclaimer. Any room reservation you make with us shall additionally be subject to our Terms and Conditions, as well as the terms of our room booking operator.",
       "By using any part of the Website and/or submitting any information to us through the Website, you agree to the terms set forth in our Disclaimer and this Privacy Policy, and you agree that any of your personal data obtained through the Website may be processed in accordance with our Privacy Policy.",
-      "If you have any questions regarding these documents, please contact us via info@whiteridgehotel.com."
+      "If you have any questions regarding these documents, please contact us via info@whiteridgehotel.com.",
     ],
     data: [
       {
         title: "GENERAL",
         desc: [
-          "We are concerned with the protection of your privacy and will comply with all applicable Indian data protection legislation."
-        ]
+          "We are concerned with the protection of your privacy and will comply with all applicable Indian data protection legislation.",
+        ],
       },
       {
         title: "COLLECTION OF PERSONAL DATA",
         desc: [
           "We may collect your personal data on the occasions and for the purposes as set forth below.",
-          "We may also use your personal data to support the functionality and personalize the layout and content of the Website to match your needs, interests and preferences, for security and fraud prevention purposes, to better understand our guests, to improve our programs, services and Website, and to better market our programs and services."
-        ]
+          "We may also use your personal data to support the functionality and personalize the layout and content of the Website to match your needs, interests and preferences, for security and fraud prevention purposes, to better understand our guests, to improve our programs, services and Website, and to better market our programs and services.",
+        ],
       },
       {
         title: "USE OF THE WEBSITE",
@@ -885,8 +883,8 @@ export const policyPagesData = {
           "In general, we use the Page Statistics only to compile anonymous statistics regarding our visitors, in particular every visitor's home country.",
           "In case of technical difficulties, upon your request, we may investigate the Page Statistics to offer you support in using the website's facilities.",
           "Without your request for technical assistance, we will never investigate personalized Page Statistics.",
-          "The Website uses session cookies, which are deleted after you close your browser, and only store a minimal amount of personal data for a limited time."
-        ]
+          "The Website uses session cookies, which are deleted after you close your browser, and only store a minimal amount of personal data for a limited time.",
+        ],
       },
       {
         title: "CONTACTING US",
@@ -894,56 +892,56 @@ export const policyPagesData = {
           "When you contact us (via mail, e-mail, telephone, fax or Website) or make a reservation, we may collect your contact details to assist and communicate with you.",
           "We may use your contact information to send newsletters and inform you of products and services.",
           "If you no longer wish to receive our newsletter or marketing, you may notify us at info@whiteridgehotel.com.",
-          "We will only send marketing emails if you have explicitly opted in."
-        ]
+          "We will only send marketing emails if you have explicitly opted in.",
+        ],
       },
       {
         title: "RESERVATIONS AND PAYMENTS",
         desc: [
           "All reservations are processed by our booking partner.",
           "Personal data you provide during booking is processed by the partner.",
-          "Upon successful booking, our partner provides us with booking data to deliver hotel and management services during your stay."
-        ]
+          "Upon successful booking, our partner provides us with booking data to deliver hotel and management services during your stay.",
+        ],
       },
       {
         title: "SECURITY",
         desc: [
           "Our Website and databases are protected against theft, unauthorized access, and data loss.",
           "Data is stored on a professionally maintained, externally hosted server with regular backups and updates.",
-          "While we take reasonable security measures, no website can be 100% protected from targeted hacking attacks."
-        ]
+          "While we take reasonable security measures, no website can be 100% protected from targeted hacking attacks.",
+        ],
       },
       {
         title: "TRANSFER OF PERSONAL DATA",
         desc: [
           "We may occasionally share your personal data with affiliated companies, bonus programs, or travel organizations.",
-          "Your personal data will not be shared with any other parties."
-        ]
+          "Your personal data will not be shared with any other parties.",
+        ],
       },
       {
         title: "STORAGE TERM",
         desc: [
           "We only store personal data as long as it is necessary or useful for us or for you.",
           "Website statistical information is periodically released.",
-          "Contact information is stored until you request its deletion."
-        ]
+          "Contact information is stored until you request its deletion.",
+        ],
       },
       {
         title: "ACCESS AND MODIFICATION OF YOUR PERSONAL DATA",
         desc: [
           "You may request access to or changes to your personal data at any time.",
           "Contact us at info@whiteridgehotel.com for any such requests.",
-          "For data handled by our Booking Partner or Payment Gateway, you should contact them directly."
-        ]
+          "For data handled by our Booking Partner or Payment Gateway, you should contact them directly.",
+        ],
       },
       {
         title: "CHANGES",
         desc: [
           "We reserve the right to update our Privacy Policy at any time.",
           "Changes will be posted on the Website and are effective immediately.",
-          "Your continued use of the Website means you accept those changes."
-        ]
-      }
-    ]
-  }
+          "Your continued use of the Website means you accept those changes.",
+        ],
+      },
+    ],
+  },
 };
