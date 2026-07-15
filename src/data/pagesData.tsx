@@ -160,7 +160,7 @@ export const homePageData = {
           "Surrounded by lush greenery and stunning Himalayan peaks, Dal Lake is a serene and picturesque spot, offering a peaceful retreat with boat rides and a tranquil atmosphere perfect for relaxation.",
       },
       {
-        src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/doathotel/sl21.webp",
+        src: "/sl22.webp",
         alt: "Cricket Stadium, Dharamshala",
         des: "Cricket Stadium, Dharamshala",
         description:
@@ -241,7 +241,7 @@ export const homePageData = {
     title: "At the Heart of Connectivity",
     description:
       "Perfectly located for effortless exploration and unforgettable experiences",
-    src: "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/white-ridge/im17.webp",
+    src: "/images/map.jpg",
     items: [
       {
         icon: <BusIcon />,
