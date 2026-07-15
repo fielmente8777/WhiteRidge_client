@@ -1,13 +1,15 @@
 import { Heading, Paragraph, SectionWithContainer } from "@/components";
 import { WhiteMountIcon } from "@/icons/icons";
+import Image from "next/image";
+
 interface BannerProps {
   title: string;
   description: string;
   // src: string;
 }
-const Banner: React.FC<BannerProps> = ({ title, description }) => {
+const Banner: React.FC<BannerProps> = ({ title, description}) => {
   return (
-    <SectionWithContainer sectionClassName="bg-bgClr lg:py-20" >
+    <SectionWithContainer sectionClassName="bg-bgClr lg:py-20">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
         <div className="flex flex-col justify-center gap-4 max-w-xl w-full">
           <Heading
@@ -20,11 +22,11 @@ const Banner: React.FC<BannerProps> = ({ title, description }) => {
             {description}
           </Paragraph>
         </div>
-         <WhiteMountIcon/>
+        {/* <WhiteMountIcon /> */}
         {/* <div className="relative lg:aspect-[4/2] aspect-square w-full">
           <Image src={src} alt={title} className="object-contain" fill />
         </div> */}
-        <WhiteMountIcon/>
+        <WhiteMountIcon />
       </div>
     </SectionWithContainer>
   );

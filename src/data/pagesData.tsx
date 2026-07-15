@@ -533,7 +533,7 @@ export const galleryPageData = {
     title: "A Glimpse of our Hotel",
     description:
       "Discover the beauty of White Ridge Hotel through our gallery, where every image captures the essence of comfort, nature, and unforgettable experiences.",
-    // src: "/images/gallery.jpg",
+    src: "/images/gallery.jpg",
   },
   galleryData: [
     {
@@ -562,11 +562,7 @@ export const galleryPageData = {
     },
     {
       title: "Bar Lounge",
-      images: [
-        "/images/bar.jpg",
-        "/images/bar2.jpg",
-        "/images/bar3.jpg",
-      ],
+      images: ["/images/bar.jpg", "/images/bar2.jpg", "/images/bar3.jpg"],
     },
   ],
 };
