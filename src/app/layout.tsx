@@ -15,8 +15,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "White Ridge Hotel",
-  description: "A place to relax and unwind",
+  title: "White Ridge Hotel | Luxury Stay in Dharamshala, HP",
+  description: "Timeless, serene, tranquil — White Ridge Hotel offers scenic mountain views, modern comfort & warm hospitality in Dharamshala. Book your stay today.",
+  metadataBase: new URL("https://www.whiteridgehotels.com/"),
+  alternates: {
+    canonical: "https://www.whiteridgehotels.com/",
+  },
+  openGraph: {
+    title: "White Ridge Hotel | Luxury Stay in Dharamshala, HP",
+    description: "Timeless, serene, tranquil — White Ridge Hotel offers scenic mountain views, modern comfort & warm hospitality in Dharamshala. Book your stay today.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    }
+  }
 };
 
 export default function RootLayout({

@@ -1,6 +1,34 @@
 import { Heading, Paragraph, SectionWithContainer } from "@/components";
 import { policyPagesData } from "@/data/pagesData";
+import { Metadata } from "next";
 import React from "react";
+
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | White Ridge Hotel",
+  description: "Read White Ridge Hotel's privacy policy and terms & conditions covering data protection, bookings, cancellations, and guest guidelines.",
+  metadataBase: new URL("https://www.whiteridgehotels.com/privacy-policy"),
+  alternates: {
+    canonical: "https://www.whiteridgehotels.com/privacy-policy",
+  },
+  openGraph: {
+    title: "Privacy Policy | White Ridge Hotel",
+    description: "Read White Ridge Hotel's privacy policy and terms & conditions covering data protection, bookings, cancellations, and guest guidelines.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    }
+  }
+};
 
 const page = () => {
   return (

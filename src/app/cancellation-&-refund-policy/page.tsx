@@ -1,6 +1,33 @@
 import { Heading, Paragraph, SectionWithContainer } from "@/components";
 import React from "react";
 import { policyPagesData } from "../../data/pagesData";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cancellation & Refund Policy | White Ridge Hotel",
+  description: "Review White Ridge Hotel's cancellation and refund guidelines before booking your stay in Dharamshala, Himachal Pradesh.",
+  metadataBase: new URL("https://www.whiteridgehotels.com/cancellation-and-refund-policy"),
+  alternates: {
+    canonical: "https://www.whiteridgehotels.com/cancellation-and-refund-policy",
+  },
+  openGraph: {
+    title: "Cancellation & Refund Policy | White Ridge Hotel",
+    description: "Review White Ridge Hotel's cancellation and refund guidelines before booking your stay in Dharamshala, Himachal Pradesh.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    }
+  }
+};
 
 const page = () => {
   return (
