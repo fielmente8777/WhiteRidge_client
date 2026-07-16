@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="lg:col-span-2 max-width col-span-full flex flex-col h-full justify-center gap-6 lg:px-6 w-full uppercase pt-4">
+        <div className="lg:col-span-2 max-width col-span-full flex flex-col h-full justify-center gap-6 lg:px-6 w-full  pt-4">
           <div className="relative aspect-[4/2.5] h-[7.5rem]">
             <Image
               src="/logo.png"
@@ -124,7 +124,7 @@ const Footer = () => {
               >
                 <Heading
                   level={3}
-                  className="text-light font-medium lg:text-lg text-base"
+                  className="text-light uppercase font-medium lg:text-lg text-base"
                 >
                   {link.title}
                 </Heading>
@@ -134,7 +134,7 @@ const Footer = () => {
                       <Link
                         href={item.href || "#"}
                         key={item.id}
-                        className="text-white max-w-sm text-sm flex items-center gap-2 hover:text-tertiary transition-colors duration-300 ease-in-out"
+                        className="text-white max-w-sm text-sm flex items-center gap-2 hover:text-tertiary transition-colors uppercase duration-300 ease-in-out"
                         target={item?.target}
                       >
                         {item.name}
