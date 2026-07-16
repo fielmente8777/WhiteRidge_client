@@ -28,11 +28,11 @@ export const footerLinks: IFooter[] = [
         icon: <MailIcon />,
         links: [
           {
-            name: "info@whiteridgehotel.com",
-            href: "mailto:info@whiteridgehotel.com",
+            name: "info@whiteridgehotels.com",
+            href: "mailto:info@whiteridgehotels.com",
           },
           {
-            name: "marketing@whiteridgehotel.com",
+            name: "marketing@whiteridgehotels.com",
             href: "mailto:marketing@whiteridgehotel.com",
           },
         ],

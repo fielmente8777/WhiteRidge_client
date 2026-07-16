@@ -619,12 +619,12 @@ export const contactPageData = {
         title: "Email",
         links: [
           {
-            label: "info@whiteridgehotel.com",
-            href: "mailto:info@whiteridgehotel.com",
+            label: "info@whiteridgehotels.com",
+            href: "mailto:info@whiteridgehotels.com",
           },
           {
-            label: "marketing@whiteridgehotel.com",
-            href: "mailto:marketing@whiteridgehotel.com",
+            label: "marketing@whiteridgehotels.com",
+            href: "mailto:marketing@whiteridgehotels.com",
           },
         ],
       },
@@ -731,7 +731,7 @@ export const policyPagesData = {
       {
         title: "ROOMS FOR DISABLED GUESTS",
         desc: [
-          "A number of hotels offer modified facilities for use by Guests with disabilities. As needs do vary, Guests are requested to check with the hotel on info@whiteridgehotel.com",
+          "A number of hotels offer modified facilities for use by Guests with disabilities. As needs do vary, Guests are requested to check with the hotel on info@whiteridgehotels.com",
         ],
       },
       {
@@ -856,7 +856,7 @@ export const policyPagesData = {
       'White Ridge Hotel ("we", "us", "our") provides the information set out on the www.whiteridgehotel.com website (the "Website") solely for information purposes.',
       "Your use of the Website is governed by this Privacy Policy and our Disclaimer. Any room reservation you make with us shall additionally be subject to our Terms and Conditions, as well as the terms of our room booking operator.",
       "By using any part of the Website and/or submitting any information to us through the Website, you agree to the terms set forth in our Disclaimer and this Privacy Policy, and you agree that any of your personal data obtained through the Website may be processed in accordance with our Privacy Policy.",
-      "If you have any questions regarding these documents, please contact us via info@whiteridgehotel.com.",
+      "If you have any questions regarding these documents, please contact us via info@whiteridgehotels.com.",
     ],
     data: [
       {
@@ -887,7 +887,7 @@ export const policyPagesData = {
         desc: [
           "When you contact us (via mail, e-mail, telephone, fax or Website) or make a reservation, we may collect your contact details to assist and communicate with you.",
           "We may use your contact information to send newsletters and inform you of products and services.",
-          "If you no longer wish to receive our newsletter or marketing, you may notify us at info@whiteridgehotel.com.",
+          "If you no longer wish to receive our newsletter or marketing, you may notify us at info@whiteridgehotels.com.",
           "We will only send marketing emails if you have explicitly opted in.",
         ],
       },
@@ -926,7 +926,7 @@ export const policyPagesData = {
         title: "ACCESS AND MODIFICATION OF YOUR PERSONAL DATA",
         desc: [
           "You may request access to or changes to your personal data at any time.",
-          "Contact us at info@whiteridgehotel.com for any such requests.",
+          "Contact us at info@whiteridgehotels.com for any such requests.",
           "For data handled by our Booking Partner or Payment Gateway, you should contact them directly.",
         ],
       },
