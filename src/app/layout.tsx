@@ -62,7 +62,20 @@ export default function RootLayout({
               `,
           }}
         />
-
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-443B8SBQBC"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-443B8SBQBC');`,
+          }}
+        />
         <Script id="eazbot-script" strategy="afterInteractive">
           {`window.eazbotConfig = {
              ndid: "3a0d6638-e89a-4882-a2a7-f6b1c923e4b8",
